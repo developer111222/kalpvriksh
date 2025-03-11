@@ -1,0 +1,670 @@
+.videomessages {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 96px;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 24px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1280px) {
+    .videomessages {
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .videomessages {
+        max-width: 768px;
+        grid-gap: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .videomessages {
+        max-width: 560px;
+    }
+}
+
+@media (max-width: 560px) {
+    .videomessages {
+        max-width: 420px;
+    }
+}
+
+@media (max-width: 560px) {
+    .videomessages {
+        max-width: 340px;
+    }
+}
+
+.videomessages ul {
+    width: 100%;
+    display: grid;
+    grid-gap: 62px;
+    grid-template-columns: auto 40%;
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .videomessages ul {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .videomessages ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.videomessages ul li {
+    width: 100%;
+}
+
+.videomessages ul li img {
+    display: block;
+    width: 100%;
+}
+
+.videomessages ul li h1 {
+    text-align: left;
+    font: 400 48px "Circular Std", sans-serif;
+    color: #E3010F;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1280px) {
+    .videomessages ul li h1 {
+        font-size: 36px;
+    }
+}
+
+.videomessages ul li h2 {
+    text-align: left;
+    font: 700 18px "Source Serif Pro", serif;
+    color: #000;
+    margin: 16px 0;
+}
+
+@media (max-width: 1280px) {
+    .videomessages ul li h2 {
+        font-size: 16px;
+    }
+}
+
+.videomessages ul li h2 span {
+    display: inline-block;
+    background-color: #FDCC4B;
+    padding: 0 4px;
+    box-sizing: border-box;
+}
+
+.videomessages ul li p {
+    text-align: left;
+    font: 400 15px "Circular Std Book", sans-serif;
+    color: #505050;
+}
+
+@media (max-width: 1280px) {
+    .videomessages ul li p {
+        font-size: 14px;
+    }
+}
+
+.videomessages ul li p span {
+    font: 400 15px "Circular Std medium", sans-serif;
+    color: #000;
+}
+
+@media (max-width: 1280px) {
+    .videomessages ul li p span {
+        font-size: 14px;
+    }
+}
+
+.videomessages ul li a {
+    text-align: left;
+    font: 400 13px "Circular Std", sans-serif;
+    text-transform: uppercase;
+    color: #E3010F;
+    letter-spacing: 2px;
+    margin: 32px 0 0 0;
+    display: inline-block;
+    /* background: url(../icons/right-arr.svg) no-repeat right center; */
+    background-size: 24px;
+    padding: 0 24px 0 0;
+    box-sizing: border-box;
+    transition: .25s ease-out;
+}
+
+@media (max-width: 1280px) {
+    .videomessages ul li a {
+        font-size: 12px;
+    }
+}
+
+.videomessages ul li a:hover {
+    padding: 0 36px 0 0;
+    transition: .25s ease-in;
+}
+
+.videomessages ul li video {
+    display: block;
+    width: 100%;
+}
+
+.videomessages ul li .btns {
+    width: 100%;
+    margin: 12px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.videomessages ul li .btns button {
+    display: inline-block;
+    border: none;
+    font-size: 0;
+    height: 40px;
+    width: 48px;
+    cursor: pointer;
+    transition: .15s ease-out;
+}
+
+.videomessages ul li .btns button.playbite {
+    /* background: url('img/playbtn.svg') no-repeat center; */
+    background-size: 48px;
+}
+
+.videomessages ul li .btns button.pausebite {
+    /* background: url('img/pausebtn.svg') no-repeat center; */
+    background-size: 48px;
+}
+
+.videomessages ul li .btns .name {
+    width: 100%;
+}
+
+.videomessages ul li .btns .name b {
+    display: block;
+    width: 100%;
+    text-align: right;
+    font: 400 16px "Circular Std medium", sans-serif;
+    color: #E3010F;
+}
+
+.videomessages ul li .btns .name span {
+    display: block;
+    width: 100%;
+    text-align: right;
+    font: 400 12px "Circular Std Book", sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.videomessages dl {
+    width: 100%;
+    display: grid;
+    grid-gap: 48px;
+    grid-template-columns: 40% auto;
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .videomessages dl {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .videomessages dl {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.videomessages dl dt {
+    width: 100%;
+}
+
+.videomessages dl dt img {
+    display: block;
+    width: 100%;
+}
+
+.videomessages dl dt h1 {
+    text-align: left;
+    font: 400 48px "Circular Std", sans-serif;
+    color: #E3010F;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1280px) {
+    .videomessages dl dt h1 {
+        font-size: 36px;
+    }
+}
+
+.videomessages dl dt h2 {
+    text-align: left;
+    font: 700 18px "Source Serif Pro", serif;
+    color: #000;
+    margin: 16px 0;
+}
+
+@media (max-width: 1280px) {
+    .videomessages dl dt h2 {
+        font-size: 16px;
+    }
+}
+
+.videomessages dl dt h2 span {
+    display: inline-block;
+    background-color: #FDCC4B;
+    padding: 0 4px;
+    box-sizing: border-box;
+}
+
+.videomessages dl dt p {
+    text-align: left;
+    font: 400 15px "Circular Std Book", sans-serif;
+    color: #505050;
+}
+
+@media (max-width: 1280px) {
+    .videomessages dl dt p {
+        font-size: 14px;
+    }
+}
+
+.videomessages dl dt p span {
+    font: 400 15px "Circular Std medium", sans-serif;
+    color: #000;
+}
+
+@media (max-width: 1280px) {
+    .videomessages dl dt p span {
+        font-size: 14px;
+    }
+}
+
+.videomessages dl dt a {
+    text-align: left;
+    font: 400 13px "Circular Std", sans-serif;
+    text-transform: uppercase;
+    color: #E3010F;
+    letter-spacing: 2px;
+    margin: 32px 0 0 0;
+    display: inline-block;
+    /* background: url(../icons/right-arr.svg) no-repeat right center; */
+    background-size: 24px;
+    padding: 0 24px 0 0;
+    box-sizing: border-box;
+    transition: .25s ease-out;
+}
+
+@media (max-width: 1280px) {
+    .videomessages dl dt a {
+        font-size: 12px;
+    }
+}
+
+.videomessages dl dt a:hover {
+    padding: 0 36px 0 0;
+    transition: .25s ease-in;
+}
+
+.videomessages dl dt video {
+    display: block;
+    width: 100%;
+}
+
+.videomessages dl dt .btns {
+    width: 100%;
+    margin: 12px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.videomessages dl dt .btns button {
+    display: inline-block;
+    border: none;
+    font-size: 0;
+    height: 40px;
+    width: 48px;
+    cursor: pointer;
+    transition: .15s ease-out;
+}
+
+.videomessages dl dt .btns button.playbite {
+    /* background: url('img/playbtn.svg') no-repeat center; */
+    background-size: 48px;
+}
+
+.videomessages dl dt .btns button.pausebite {
+    /* background: url('img/pausebtn.svg') no-repeat center; */
+    background-size: 48px;
+}
+
+.videomessages dl dt .btns .name {
+    width: 100%;
+}
+
+.videomessages dl dt .btns .name b {
+    display: block;
+    width: 100%;
+    text-align: right;
+    font: 400 16px "Circular Std medium", sans-serif;
+    color: #E3010F;
+}
+
+.videomessages dl dt .btns .name span {
+    display: block;
+    width: 100%;
+    text-align: right;
+    font: 400 12px "Circular Std Book", sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.messagesWrapp {
+    width: 100%;
+    max-width: 1280px;
+    padding: 72px 24px 0 24px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+@media (max-width: 1280px) {
+    .messagesWrapp {
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .messagesWrapp {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    .messagesWrapp {
+        max-width: 560px;
+    }
+}
+
+@media (max-width: 560px) {
+    .messagesWrapp {
+        max-width: 420px;
+    }
+}
+
+@media (max-width: 420px) {
+    .messagesWrapp {
+        max-width: 340px;
+    }
+}
+
+.messagesWrapp h1 {
+    text-align: center;
+    font: 400 72px "just_lovelyslanted", serif;
+    color: #E3010F;
+}
+
+@media (max-width: 1024px) {
+    .messagesWrapp h1 {
+        font-size: 56px;
+    }
+}
+
+@media (max-width: 420px) {
+    .messagesWrapp h1 {
+        font-size: 40px;
+    }
+}
+
+.messagesWrapp h2 {
+    text-align: center;
+    font: 400 24px "Source Serif Pro", serif;
+    color: #000;
+    margin: 12px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+    .messagesWrapp h2 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 420px) {
+    .messagesWrapp h2 {
+        font-size: 16px;
+    }
+}
+
+.messagesWrapp ul {
+    width: 100%;
+    display: grid;
+    grid-gap: 24px;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: flex-start;
+    margin: 82px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+    .messagesWrapp ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 560px) {
+    .messagesWrapp ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 420px) {
+    .messagesWrapp ul {
+        margin: 48px 0 0 0;
+    }
+}
+
+.messagesWrapp ul li {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.messagesWrapp ul li span {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.messagesWrapp ul li span img {
+    display: inline-block;
+    width: 100%;
+    max-width: 48px;
+}
+
+.messagesWrapp ul li h2 {
+    text-align: left;
+    font: 400 24px "Circular Std", sans-serif;
+    color: #000;
+    margin: 32px 0 0 0;
+}
+
+@media (max-width: 420px) {
+    .messagesWrapp ul li h2 {
+        margin: 12px 0 0 0;
+        font-size: 20px;
+    }
+}
+
+.messagesWrapp ul li p {
+    text-align: left;
+    font: 400 15px "Circular Std Book", sans-serif;
+    color: #505050;
+    margin: 16px 0 0 0;
+}
+
+@media (max-width: 420px) {
+    .messagesWrapp ul li p {
+        font-size: 13px;
+        margin: 8px 0 0 0;
+    }
+}
+
+.messagesWrapp .directorMsg {
+    width: 100%;
+    display: grid;
+    grid-gap: 48px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 82px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+    .messagesWrapp .directorMsg {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 420px) {
+    .messagesWrapp .directorMsg {
+        grid-gap: 24px;
+    }
+}
+
+.messagesWrapp .directorMsg .photo {
+    width: 100%;
+}
+
+.messagesWrapp .directorMsg .photo img {
+    display: block;
+    width: 100%;
+}
+
+.messagesWrapp .directorMsg .message {
+    width: 100%;
+}
+
+.messagesWrapp .directorMsg .message h2 {
+    text-align: left;
+    font: 400 48px "Source Serif Pro", serif;
+    color: #E3010F;
+}
+
+@media (max-width: 560px) {
+    .messagesWrapp .directorMsg .message h2 {
+        font-size: 32px;
+    }
+}
+
+.messagesWrapp .directorMsg .message b {
+    display: block;
+    width: 100%;
+    text-align: left;
+    font: 400 20px "Circular Std", sans-serif;
+    color: #000;
+    margin: 8px 0 0 0;
+}
+
+@media (max-width: 560px) {
+    .messagesWrapp .directorMsg .message b {
+        font-size: 16px;
+    }
+}
+
+.messagesWrapp .directorMsg .message p {
+    text-align: left;
+    font: 400 15px "Circular Std Book", sans-serif;
+    color: #505050;
+    margin: 24px 0 0 0;
+}
+
+.messagesWrapp .directorMsg .message p span {
+    font: 400 15px "Circular Std medium", sans-serif;
+    color: #000;
+}
+
+.messagesWrapp .principalMsg {
+    width: 100%;
+    display: grid;
+    grid-gap: 48px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 82px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+    .messagesWrapp .principalMsg {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 420px) {
+    .messagesWrapp .principalMsg {
+        grid-gap: 24px;
+    }
+}
+
+.messagesWrapp .principalMsg .photo {
+    width: 100%;
+}
+
+.messagesWrapp .principalMsg .photo img {
+    display: block;
+    width: 100%;
+}
+
+.messagesWrapp .principalMsg .message {
+    width: 100%;
+}
+
+.messagesWrapp .principalMsg .message h2 {
+    text-align: left;
+    font: 400 48px "Source Serif Pro", serif;
+    color: #E3010F;
+}
+
+@media (max-width: 560px) {
+    .messagesWrapp .principalMsg .message h2 {
+        font-size: 32px;
+    }
+}
+
+.messagesWrapp .principalMsg .message b {
+    display: block;
+    width: 100%;
+    text-align: left;
+    font: 400 20px "Circular Std", sans-serif;
+    color: #000;
+    margin: 8px 0 0 0;
+}
+
+@media (max-width: 560px) {
+    .messagesWrapp .principalMsg .message b {
+        font-size: 16px;
+    }
+}
+
+.messagesWrapp .principalMsg .message p {
+    text-align: left;
+    font: 400 15px "Circular Std Book", sans-serif;
+    color: #505050;
+    margin: 24px 0 0 0;
+}
+
+.messagesWrapp .principalMsg .message p span {
+    font: 400 15px "Circular Std medium", sans-serif;
+    color: #000;
+}

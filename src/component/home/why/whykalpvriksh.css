@@ -1,0 +1,69 @@
+.whykalpvriksh {
+    width: 100%;
+    max-width: 1280px;
+    padding: 106px 24px 48px 24px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-bottom: 2px solid #1f488d; }
+    @media (max-width: 1280px) {
+      .whykalpvriksh {
+        max-width: 1024px; } }
+    @media (max-width: 1024px) {
+      .whykalpvriksh {
+        max-width: 768px; } }
+    @media (max-width: 768px) {
+      .whykalpvriksh {
+        max-width: 560px; } }
+    @media (max-width: 560px) {
+      .whykalpvriksh {
+        max-width: 420px; } }
+    @media (max-width: 420px) {
+      .whykalpvriksh {
+        max-width: 340px;
+        padding: 56px 24px 48px 24px; } }
+    .whykalpvriksh .why {
+      width: 100%; }
+      .whykalpvriksh .why ul {
+        width: 100%;
+        display: grid;
+        grid-gap: 24px;
+        grid-template-columns: 260px auto;
+        align-items: center; }
+        @media (max-width: 768px) {
+          .whykalpvriksh .why ul {
+            grid-template-columns: 156px auto; } }
+        @media (max-width: 560px) {
+          .whykalpvriksh .why ul {
+            grid-template-columns: repeat(1, 1fr); } }
+        .whykalpvriksh .why ul li {
+          width: 100%; }
+          .whykalpvriksh .why ul li h2 {
+            text-align: left;
+            /* font: 400 56px "just_lovelyslanted", serif; */
+            font-size: 40px;
+            color: #1f488d; }
+            @media (max-width: 1280px) {
+              .whykalpvriksh .why ul li h2 {
+                font-size: 48px; } }
+            @media (max-width: 768px) {
+              .whykalpvriksh .why ul li h2 {
+                font-size: 40px; } }
+            @media (max-width: 560px) {
+              .whykalpvriksh .why ul li h2 {
+                text-align: center; } }
+          .whykalpvriksh .why ul li p {
+            text-align: left;
+            font: 400 15px "Circular Std medium", sans-serif;
+            color: #000;
+            margin: 6px 0;
+            padding: 6px 0; }
+            @media (max-width: 1280px) {
+              .whykalpvriksh .why ul li p {
+                font-size: 14px; } }
+            @media (max-width: 768px) {
+              .whykalpvriksh .why ul li p {
+                font-size: 13px;
+                padding: 0; } }
+            @media (max-width: 560px) {
+              .whykalpvriksh .why ul li p {
+                text-align: center; } }

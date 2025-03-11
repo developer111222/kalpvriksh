@@ -1,0 +1,142 @@
+.missionvision {
+  width: 100%;
+  width: 100%;
+  max-width: 1280px;
+  box-sizing: border-box;
+  padding: 160px 24px 32px 24px;
+  margin: 30px auto;
+  display: grid;
+  grid-gap: 24px;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  transition: .5s ease-in-out;
+}
+
+@media (max-width: 1280px) {
+  .missionvision {
+    max-width: 1024px;
+    padding: 72px 24px 32px 24px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .missionvision {
+    max-width: 768px;
+    padding: 62px 20px 20px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .missionvision {
+    max-width: 560px;
+    grid-gap: 16px;
+    padding: 0 20px 20px 20px;
+  }
+}
+
+@media (max-width: 560px) {
+  .missionvision {
+    max-width: 420px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 420px) {
+  .missionvision {
+    max-width: 340px;
+  }
+}
+
+.missionvision:hover li:first-child {
+  transition: .5s ease-in;
+  transform: translate3d(-12px, -80px, 0);
+}
+
+@media (max-width: 1280px) {
+  .missionvision:hover li:first-child {
+    transform: translate3d(-12px, -60px, 0);
+  }
+}
+
+@media (max-width: 768px) {
+  .missionvision:hover li:first-child {
+    transform: translate3d(-12px, -32px, 0);
+  }
+}
+
+.missionvision:hover li:last-child {
+  transition: .5s ease-in;
+  transform: translate3d(10px, 20px, 0);
+}
+
+@media (max-width: 1280px) {
+  .missionvision:hover li:last-child {
+    transform: translate3d(10px, 10px, 0);
+  }
+}
+
+.missionvision li {
+  width: 100%;
+  height: 100%;
+  background-color: #1f488d;
+  padding: 36px 62px;
+  box-sizing: border-box;
+  transition: .25s ease-in;
+}
+
+@media (max-width: 1280px) {
+  .missionvision li {
+    padding: 48px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .missionvision li {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .missionvision li {
+    padding: 16px;
+  }
+}
+
+.missionvision li h2 {
+  text-align: center;
+  /* font: 400 56px "just_lovelyslanted", serif; */
+  color: #fff;
+  font-size: 50px;
+}
+
+@media (max-width: 1280px) {
+  .missionvision li h2 {
+    /* font-size: 70px; */
+  }
+}
+
+@media (max-width: 1024px) {
+  .missionvision li h2 {
+    font-size: 40px;
+  }
+}
+
+.missionvision li p {
+  text-align: center;
+  font: 400 15px "Circular Std Book", sans-serif;
+  color: #fff;
+  margin: 24px 0 0 0;
+}
+
+@media (max-width: 1280px) {
+  .missionvision li p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .missionvision li p {
+    font-size: 13px;
+    margin: 6px 0 0 0;
+  }
+}

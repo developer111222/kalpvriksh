@@ -1,0 +1,235 @@
+.explorecampus {
+    width: 100%;
+    padding: 0 24px;
+    max-width: 1280px;
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 48px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 48px auto 0 auto; }
+    @media (max-width: 1280px) {
+      .explorecampus {
+        max-width: 1024px;
+        grid-gap: 40px; } }
+    @media (max-width: 1024px) {
+      .explorecampus {
+        max-width: 768px; } }
+    @media (max-width: 768px) {
+      .explorecampus {
+        max-width: 560px;
+        grid-template-columns: repeat(1, 1fr); } }
+    @media (max-width: 560px) {
+      .explorecampus {
+        max-width: 420px; } }
+    @media (max-width: 420px) {
+      .explorecampus {
+        max-width: 340px; } }
+    .explorecampus .text {
+      width: 100%; }
+      .explorecampus .text h2 {
+        text-align: left;
+        font: 400 52px "Circular Std", sans-serif;
+        text-transform: uppercase;
+        color: #1f488d; }
+        @media (max-width: 1280px) {
+          .explorecampus .text h2 {
+            font-size: 42px; } }
+        @media (max-width: 1024px) {
+          .explorecampus .text h2 {
+            font-size: 24px; } }
+        .explorecampus .text h2 span {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          padding: 0 12px;
+          box-sizing: border-box;
+          margin-left: 10px;
+          position: relative; }
+          .explorecampus .text h2 span::after {
+            content: '';
+            display: block;
+            width: 100%;
+            background-color: #FDCC4B;
+            height: 44px;
+            position: absolute;
+            left: 0; }
+            @media (max-width: 1024px) {
+              .explorecampus .text h2 span::after {
+                height: 30px; } }
+          .explorecampus .text h2 span i {
+            display: inline-block;
+            /* font: 400 86px/86px "just_lovelyslanted", serif; */
+            font-family: "Great Vibes", cursive;
+            font-weight: 400;
+            font-style: normal;
+            color: #000;
+            text-transform: none;
+            font-style: normal;
+            position: relative;
+            font-size: 50px;
+            z-index: 1; }
+            @media (max-width: 1280px) {
+              .explorecampus .text h2 span i {
+                font-size: 72px;
+                line-height: 72px; } }
+            @media (max-width: 1024px) {
+              .explorecampus .text h2 span i {
+                font-size: 40px;
+                line-height: 40px; } }
+      .explorecampus .text p {
+        text-align: left;
+        font: 400 15px/22px "Circular Std Book", sans-serif;
+        color: #202020;
+        margin: 12px 0 24px 0; }
+        @media (max-width: 1280px) {
+          .explorecampus .text p {
+            font: 400 14px/20px "Circular Std Book", sans-serif;
+            margin: 10px 0 20px 0; } }
+        @media (max-width: 1024px) {
+          .explorecampus .text p {
+            font: 400 13px "Circular Std Book", sans-serif;
+            margin: 6px 0 12px 0; } }
+      .explorecampus .text .readmore {
+        width: 100%;
+        text-align: left; }
+        .explorecampus .text .readmore a {
+          display: inline-block;
+          text-align: center;
+          font: 400 13px/48px "Circular Std", sans-serif;
+          color: #1f488d;
+          text-transform: uppercase;
+          padding: 0 36px;
+          box-sizing: border-box;
+          border: 1px solid #1f488d;
+          transition: .25s ease-in; }
+          @media (max-width: 1280px) {
+            .explorecampus .text .readmore a {
+              font: 400 13px/42px "Circular Std", sans-serif; } }
+          @media (max-width: 1024px) {
+            .explorecampus .text .readmore a {
+              font: 400 12px/32px "Circular Std", sans-serif; } }
+          .explorecampus .text .readmore a:hover {
+            background-color: #1f488d;
+            color: #fff;
+            transition: .25s ease-out; }
+      .explorecampus .text ul {
+        width: 100%;
+        display: grid;
+        grid-column-gap: 72px;
+        grid-row-gap: 32px;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 48px 0 0 0; }
+        @media (max-width: 1280px) {
+          .explorecampus .text ul {
+            grid-column-gap: 62px;
+            grid-row-gap: 24px;
+            margin: 36px 0 0 0; } }
+        @media (max-width: 1024px) {
+          .explorecampus .text ul {
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+            margin: 24px 0 0 0; } }
+        .explorecampus .text ul li {
+          width: 100%;
+          text-align: center; }
+          .explorecampus .text ul li span {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center; }
+            .explorecampus .text ul li span img {
+              display: block;
+              width: 100%;
+              max-width: 56px; }
+              @media (max-width: 1280px) {
+                .explorecampus .text ul li span img {
+                  max-width: 42px; } }
+              @media (max-width: 1024px) {
+                .explorecampus .text ul li span img {
+                  max-width: 32px; } }
+          .explorecampus .text ul li b {
+            display: block;
+            width: 100%;
+            text-align: center;
+            font: 400 14px "Circular Std Book", sans-serif;
+            color: #202020;
+            margin: 12px 0 0 0; }
+            @media (max-width: 1024px) {
+              .explorecampus .text ul li b {
+                font-size: 13px; } }
+    .explorecampus .photo {
+      width: 100%;
+      position: relative; }
+      .explorecampus .photo img {
+        display: block;
+        width: 100%; }
+      .explorecampus .photo .rightshape {
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        right: 0px;
+        bottom: -28px;
+        border-color: transparent transparent transparent #1f488d;
+        border-style: solid;
+        border-width: 0 0 48px 124px;
+        border-image: none 100% / 1 / 0 stretch;
+        transform: rotate(-2deg); }
+        @media (max-width: 1280px) {
+          .explorecampus .photo .rightshape {
+            bottom: -33px; } }
+        @media (max-width: 1024px) {
+          .explorecampus .photo .rightshape {
+            bottom: -38px; } }
+        @media (max-width: 768px) {
+          .explorecampus .photo .rightshape {
+            bottom: -32px; } }
+        @media (max-width: 560px) {
+          .explorecampus .photo .rightshape {
+            bottom: -36px; } }
+        @media (max-width: 420px) {
+          .explorecampus .photo .rightshape {
+            border-width: 0 0 26px 124px;
+            bottom: -17px; } }
+      .explorecampus .photo .topshape {
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        border-color: transparent transparent #fff;
+        border-style: solid;
+        border-width: 0 0 20px 648px;
+        border-image: none 100% / 1 / 0 stretch;
+        bottom: 0px;
+        left: 0; }
+      .explorecampus .photo .bottomshape {
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        border-color: transparent transparent #fff;
+        border-style: solid;
+        border-width: 0px 0px 24px 728px;
+        border-image: none 100% / 1 / 0 stretch;
+        top: 0;
+        left: 0;
+        transform: rotate(180deg); }
+      .explorecampus .photo .leftshape {
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        border-color: #fff transparent transparent;
+        border-style: solid;
+        border-width: 364px 20px 0px 0;
+        border-image: none 100% / 1 / 0 stretch;
+        top: 0;
+        left: 0; }
+      .explorecampus .photo .leftshape1 {
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        border-color: #1f488d transparent transparent;
+        border-style: solid;
+        border-width: 399.5px 0px 0px 25px;
+        border-image: none 100% / 1 / 0 stretch;
+        bottom: 0px;
+        left: 1px; }
