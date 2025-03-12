@@ -1,0 +1,222 @@
+.teachersWrapper {
+    width: 100%;
+    max-width: 1280px;
+    padding: 0 24px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+@media (max-width: 1280px) {
+    .teachersWrapper {
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .teachersWrapper {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    .teachersWrapper {
+        max-width: 560px;
+    }
+}
+
+@media (max-width: 560px) {
+    .teachersWrapper {
+        max-width: 420px;
+    }
+}
+
+@media (max-width: 420px) {
+    .teachersWrapper {
+        max-width: 340px;
+    }
+}
+
+.teachersWrapper .photo {
+    width: 100%;
+    position: relative;
+}
+
+.teachersWrapper .photo img {
+    display: block;
+    width: 100%;
+}
+
+.teachersWrapper .photo .heading {
+    background-color: transparent;
+    padding: 25px;
+    box-sizing: border-box;
+    position: relative;
+    max-width: 418px;
+    position: absolute;
+    left: 62px;
+    right: 0;
+    bottom: -56px;
+}
+
+@media (max-width: 1024px) {
+    .teachersWrapper .photo .heading {
+        max-width: 292px;
+    }
+}
+
+@media (max-width: 768px) {
+    .teachersWrapper .photo .heading {
+        max-width: 218px;
+        left: 16px;
+        bottom: -48px;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 560px) {
+    .teachersWrapper .photo .heading {
+        max-width: 180px;
+        bottom: -32px;
+    }
+}
+
+.teachersWrapper .photo .heading .rightshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    right: 0px;
+    border-color: transparent transparent transparent #1f488d;
+    border-style: solid;
+    border-width: 72px 0px 0px 25px;
+    border-image: none 100% / 1 / 0 stretch;
+}
+
+@media (max-width: 1024px) {
+    .teachersWrapper .photo .heading .rightshape {
+        border-width: 56px 0px 0px 25px;
+        right: 1px;
+    }
+}
+
+@media (max-width: 768px) {
+    .teachersWrapper .photo .heading .rightshape {
+        border-width: 40px 0px 0px 25px;
+    }
+}
+
+@media (max-width: 560px) {
+    .teachersWrapper .photo .heading .rightshape {
+        border-width: 36px 0px 0px 12px;
+        right: 0;
+    }
+}
+
+.teachersWrapper .photo .heading .topshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #1f488d;
+    border-style: solid;
+    border-width: 24px 0px 73px 25px;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 0px;
+    left: 0;
+}
+
+@media (max-width: 1024px) {
+    .teachersWrapper .photo .heading .topshape {
+        border-width: 24px 0px 57px 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .teachersWrapper .photo .heading .topshape {
+        border-width: 24px 0px 41px 25px;
+    }
+}
+
+@media (max-width: 560px) {
+    .teachersWrapper .photo .heading .topshape {
+        border-width: 12px 0px 36px 12px;
+    }
+}
+
+.teachersWrapper .photo .heading .bottomshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #1f488d;
+    border-style: solid;
+    border-width: 0 342px 25px 0;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 14px;
+    left: 25px;
+    transform: rotate(-4deg);
+}
+
+.teachersWrapper .photo .heading .leftshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #1f488d transparent transparent;
+    border-style: solid;
+    border-width: 73px 0px 25px 25px;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 25px;
+    left: 1px;
+}
+
+.teachersWrapper .photo .heading .leftshape1 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #1f488d transparent transparent;
+    border-style: solid;
+    border-width: 399.5px 0px 0px 25px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0px;
+    left: 1px;
+}
+
+.teachersWrapper .photo .heading b {
+    background-color: #1f488d;
+    display: block;
+    width: 100%;
+    /* font: 400 72px/72px "just_lovelyslanted", serif; */
+    color: #fff;
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+@media (max-width: 1024px) {
+    .teachersWrapper .photo .heading b {
+        /* font: 400 56px/56px "just_lovelyslanted", serif; */
+        font: 50px;
+        font-family: "Great Vibes", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+@media (max-width: 768px) {
+    .teachersWrapper .photo .heading b {
+        /* font: 400 40px/40px "just_lovelyslanted", serif; */
+        font-family: "Great Vibes", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 560px) {
+    .teachersWrapper .photo .heading b {
+        /* font: 400 36px/36px "just_lovelyslanted", serif; */
+        font-family: "Great Vibes", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 36px;
+    }
+}

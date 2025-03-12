@@ -1,0 +1,322 @@
+.teachersWrapper .support {
+    width: 100%;
+    margin: 106px 0 0 0;
+    position: relative;
+    background-color: #1f488d;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .teachersWrapper .support {
+        margin: 62px 0 0 0;
+    }
+}
+
+.teachersWrapper .support ul {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-gap: 48px;
+    padding: 48px 48px 62px 0;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 10;
+}
+
+@media (max-width: 1024px) {
+    .teachersWrapper .support ul {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 48px 62px 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .teachersWrapper .support ul {
+        grid-gap: 16px;
+    }
+}
+
+@media (max-width: 560px) {
+    .teachersWrapper .support ul {
+        padding: 0 24px 24px 24px;
+    }
+}
+
+.teachersWrapper .support ul li {
+    width: 100%;
+}
+
+.teachersWrapper .support ul li:last-child {
+    background-color: #1f488d;
+}
+
+@media (max-width: 560px) {
+    .teachersWrapper .support ul li:last-child {
+        padding-bottom: 16px;
+        box-sizing: border-box;
+    }
+}
+
+.teachersWrapper .support ul li h2 {
+    text-transform: uppercase;
+    font: 400 24px/56px "Circular Std", sans-serif;
+    color: #fff;
+}
+
+.teachersWrapper .support ul li h2 span {
+    text-align: left;
+    /* font: 400 56px/56px "just_lovelyslanted", serif; */
+    color: #fff;
+    text-transform: none;
+    margin: 0 0 0 8px;
+    font-size: 50px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width: 560px) {
+    .teachersWrapper .support ul li h2 span {
+        font: 400 40px/40px "just_lovelyslanted", serif;
+    }
+}
+
+@media (max-width: 560px) {
+    .teachersWrapper .support ul li h2 {
+        text-align: center;
+        font: 400 18px/40px "Circular Std", sans-serif;
+    }
+}
+
+.teachersWrapper .support ul li p {
+    text-align: left;
+    font: 400 15px "Circular Std Book", sans-serif;
+    color: #fff;
+    margin: 20px 0 0 0;
+}
+
+.teachersWrapper .support ul li p span {
+    font: 400 15px "Circular Std medium", sans-serif;
+    color: #fff;
+}
+
+@media (max-width: 560px) {
+    .teachersWrapper .support ul li p {
+        font-size: 14px;
+        margin: 16px 0 0 0;
+    }
+}
+
+.teachersWrapper .support ul li .photo {
+    width: 100%;
+}
+
+.teachersWrapper .support ul li .photo .video {
+    display: block;
+    width: 100%;
+    position: relative;
+    aspect-ratio: 16 / 9;
+}
+
+.teachersWrapper .support ul li .photo .video img {
+    display: block;
+    width: 100%;
+}
+
+.teachersWrapper .support ul li .photo .video video {
+    display: block;
+    width: 100%;
+}
+
+.teachersWrapper .support ul li .photo .video:hover button.pausesport {
+    background: url() no-repeat center;
+    background-size: 56px;
+    display: inline-block;
+}
+
+.teachersWrapper .support ul li .photo .video button {
+    display: inline-block;
+    border: none;
+    font-size: 0;
+    height: 48px;
+    width: 56px;
+    cursor: pointer;
+    transition: .15s ease-out;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.teachersWrapper .support ul li .photo .video button.playsport {
+    background: url() no-repeat center;
+    background-size: 56px;
+}
+
+.teachersWrapper .support ul li .photo .video button.pausesport {
+    display: none;
+    background: url() no-repeat center;
+    background-size: 56px;
+}
+
+.teachersWrapper .support .rightshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    right: -22px;
+    top: -10px;
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+    border-width: 0 0 513px 40px;
+    border-image: none 100% / 1 / 0 stretch;
+    transform: rotate(-4deg);
+}
+
+@media (max-width: 1024px) {
+    .teachersWrapper .support .rightshape {
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        right: -26px;
+        top: -10px;
+        border-color: transparent transparent transparent #fff;
+        border-style: solid;
+        border-width: 0 0 842px 40px;
+        border-image: none 100% / 1 / 0 stretch;
+        transform: rotate(-2deg);
+    }
+}
+
+@media (max-width: 768px) {
+    .teachersWrapper .support .rightshape {
+        border-width: 0 0 735px 32px;
+        transform: rotate(-2deg);
+        right: -20px;
+    }
+}
+
+@media (max-width: 420px) {
+    .teachersWrapper .support .rightshape {
+        border-width: 0 0 735px 32px;
+        transform: rotate(-1deg);
+        right: -26px;
+    }
+}
+
+.teachersWrapper .support .topshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 0 0 596px 300px;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 0px;
+    left: 0;
+    transform: rotate(180deg);
+}
+
+@media (max-width: 1024px) {
+    .teachersWrapper .support .topshape {
+        border-width: 0 0 804px 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .teachersWrapper .support .topshape {
+        border-width: 0 0 716px 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .teachersWrapper .support .topshape {
+        border-width: 0 0 684px 24px;
+    }
+}
+
+@media (max-width: 420px) {
+    .teachersWrapper .support .topshape {
+        border-width: 0 0 720px 24px;
+    }
+}
+
+.teachersWrapper .support .bottomshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 0px 1232px 24px 0px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0;
+    left: 0;
+}
+
+@media (max-width: 1024px) {
+    .teachersWrapper .support .bottomshape {
+        border-width: 0px 700px 24px 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .teachersWrapper .support .bottomshape {
+        border-width: 0px 512px 24px 0px;
+    }
+}
+
+@media (max-width: 560px) {
+    .teachersWrapper .support .bottomshape {
+        border-width: 0px 374px 12px 0px;
+    }
+}
+
+.teachersWrapper .support .leftshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #fff transparent transparent;
+    border-style: solid;
+    border-width: 24px 1232px 0px 0;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 0;
+    left: 0;
+}
+
+@media (max-width: 1024px) {
+    .teachersWrapper .support .leftshape {
+        border-width: 359px 768px 0px 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .teachersWrapper .support .leftshape {
+        border-width: 242px 484px 0px 24px;
+    }
+}
+
+@media (max-width: 560px) {
+    .teachersWrapper .support .leftshape {
+        border-width: 178px 360px 0px 0px;
+    }
+}
+
+@media (max-width: 420px) {
+    .teachersWrapper .support .leftshape {
+        border-width: 118px 287px 0px 0px;
+    }
+}
+
+.teachersWrapper .support .leftshape1 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #1f488d transparent transparent;
+    border-style: solid;
+    border-width: 399.5px 0px 0px 25px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0px;
+    left: 1px;
+}

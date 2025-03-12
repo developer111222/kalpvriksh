@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import './header.css'
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
 
@@ -81,36 +82,36 @@ const Header = () => {
             <div className="links">
               <dl>
                 <dt>
-                  <a href="index.aspx" className="active">
+                  <NavLink to='/' className="">
                     <small>Home</small>
                     <span className="topshape"></span>
                     <span className="rightshape"></span>
                     <span className="bottomshape"></span>
-                  </a>
+                  </NavLink>
                 </dt>
                 <dt>
-                  <a href="messages.html">
+                  <NavLink to='/about'>
                     <small>About us</small>
                     <span className="topshape"></span>
                     <span className="rightshape"></span>
                     <span className="bottomshape"></span>
-                  </a>
+                  </NavLink>
                 </dt>
                 <dt>
-                  <a href="teachers_training.html">
+                  <NavLink to="our-educator">
                     <small>Our Educators</small>
                     <span className="topshape"></span>
                     <span className="rightshape"></span>
                     <span className="bottomshape"></span>
-                  </a>
+                  </NavLink>
                 </dt>
                 <dt>
-                  <a href="sports.html">
+                  <NavLink to="sports">
                     <small>SPORTS FACILITIES</small>
                     <span className="topshape"></span>
                     <span className="rightshape"></span>
                     <span className="bottomshape"></span>
-                  </a>
+                  </NavLink>
                 </dt>
               </dl>
             </div>
@@ -119,28 +120,28 @@ const Header = () => {
             <div className="linksright">
               <dl>
                 <dt>
-                  <a href="life-at-montfort.html">
+                  <NavLink to="life-at-montfort">
                     <small>Life at Montfort</small>
                     <span className="topshape"></span>
                     <span className="rightshape"></span>
                     <span className="bottomshape"></span>
-                  </a>
+                  </NavLink>
                 </dt>
                 <dt>
-                  <a href="montfort-app.html">
+                  <NavLink to="montfort-app">
                     <small>Montfort School App</small>
                     <span className="topshape"></span>
                     <span className="rightshape"></span>
                     <span className="bottomshape"></span>
-                  </a>
+                  </NavLink>
                 </dt>
                 <dt>
-                  <a href="CBSECorner.aspx">
+                  <NavLink to="CBSECorner">
                     <small>CBSE Corner</small>
                     <span className="topshape"></span>
                     <span className="rightshape"></span>
                     <span className="bottomshape"></span>
-                  </a>
+                  </NavLink>
                 </dt>
               </dl>
             </div>
@@ -163,60 +164,60 @@ const Header = () => {
                   <li>
                     <dl>
                       <dt>
-                        <a href="index.aspx" className="active">
+                        <NavLink to="index" className="active">
                           <small>Home</small>
                           <span className="topshape"></span>
                           <span className="rightshape"></span>
                           <span className="bottomshape"></span>
-                        </a>
+                        </NavLink>
                       </dt>
                       <dt>
-                        <a href="messages.html">
+                        <NavLink to="messages">
                           <small>About us</small>
                           <span className="topshape"></span>
                           <span className="rightshape"></span>
                           <span className="bottomshape"></span>
-                        </a>
+                        </NavLink>
                       </dt>
                       <dt>
-                        <a href="teachers_training.html">
+                        <NavLink to="teachers_training">
                           <small>Our Educators</small>
                           <span className="topshape"></span>
                           <span className="rightshape"></span>
                           <span className="bottomshape"></span>
-                        </a>
+                        </NavLink>
                       </dt>
                       <dt>
-                        <a href="sports.html">
+                        <NavLink to="sports">
                           <small>Infrastructure</small>
                           <span className="topshape"></span>
                           <span className="rightshape"></span>
                           <span className="bottomshape"></span>
-                        </a>
+                        </NavLink>
                       </dt>
                       <dt>
-                        <a href="life-at-montfort.html">
+                        <NavLink to="life-at-montfort">
                           <small>Life at Montfort</small>
                           <span className="topshape"></span>
                           <span className="rightshape"></span>
                           <span className="bottomshape"></span>
-                        </a>
+                        </NavLink>
                       </dt>
                       <dt>
-                        <a href="montfort-app.html">
+                        <NavLink to="montfort-app">
                           <small>Montfort School App</small>
                           <span className="topshape"></span>
                           <span className="rightshape"></span>
                           <span className="bottomshape"></span>
-                        </a>
+                        </NavLink>
                       </dt>
                       <dt>
-                        <a href="CBSECorner.aspx">
+                        <NavLink to="CBSECorner">
                           <small>CBSE Corner</small>
                           <span className="topshape"></span>
                           <span className="rightshape"></span>
                           <span className="bottomshape"></span>
-                        </a>
+                        </NavLink>
                       </dt>
                     </dl>
                   </li>

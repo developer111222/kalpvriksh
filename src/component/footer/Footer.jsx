@@ -12,10 +12,7 @@ const Footer = () => {
             </div>
             <b class="location">Karnal (Haryana) Airport Road , Kunjpura</b>
             <b class="email">Email Address :  info@montfortworld.com</b>
-            <p>The Montfort Management is into education since 1987. The driving force for us at Montfort is our
-                children and their needs. Providing the best and conducive environment for the growth of the future
-                driving force of India and the world is what inspires us to push the boundaries of traditional
-                education and explore uncharted areas to help your child grow.</p>
+            <p>For us equality matters. Each and every student is entitled to the attention which he individually requires and deserves. These specially trained faculty members equipped with the most technologically advanced classrooms and digital libraries have the caliber to cater to the needs of all the students jointly and severally.</p>
         </li>
         <li>
             <div class="socialLinks">

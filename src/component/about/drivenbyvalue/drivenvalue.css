@@ -1,0 +1,153 @@
+.messagesWrapp {
+    width: 100%;
+    max-width: 1280px;
+    padding: 72px 24px 0 24px;
+    box-sizing: border-box;
+    margin: 100px auto;
+}
+
+@media (max-width: 1280px) {
+    .messagesWrapp {
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .messagesWrapp {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    .messagesWrapp {
+        max-width: 560px;
+    }
+}
+
+@media (max-width: 560px) {
+    .messagesWrapp {
+        max-width: 420px;
+    }
+}
+
+@media (max-width: 420px) {
+    .messagesWrapp {
+        max-width: 340px;
+    }
+}
+
+.messagesWrapp h1 {
+    text-align: center;
+    /* font: 400 72px "just_lovelyslanted", serif; */
+    font-size: 50px;
+    color: #1f488d;
+}
+
+@media (max-width: 1024px) {
+    .messagesWrapp h1 {
+        font-size: 56px;
+    }
+}
+
+@media (max-width: 420px) {
+    .messagesWrapp h1 {
+        font-size: 40px;
+    }
+}
+
+.messagesWrapp h2 {
+    text-align: center;
+    /* font: 400 24px "Source Serif Pro", serif; */
+    font-size: 36px;
+    color: #000;
+    margin: 12px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+    .messagesWrapp h2 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 420px) {
+    .messagesWrapp h2 {
+        font-size: 16px;
+    }
+}
+
+.messagesWrapp ul {
+    width: 100%;
+    display: grid;
+    grid-gap: 24px;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: flex-start;
+    margin: 82px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+    .messagesWrapp ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 560px) {
+    .messagesWrapp ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 420px) {
+    .messagesWrapp ul {
+        margin: 48px 0 0 0;
+    }
+}
+
+.messagesWrapp ul li {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.messagesWrapp ul li span {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.messagesWrapp ul li span img {
+    display: inline-block;
+    width: 100%;
+    max-width: 48px;
+}
+
+.messagesWrapp ul li h2 {
+    text-align: left;
+    /* font: 400 24px "Circular Std", sans-serif; */
+    font-size: 30px;
+    color: #1f488d;
+    margin: 32px 0 0 0;
+}
+
+@media (max-width: 420px) {
+    .messagesWrapp ul li h2 {
+        margin: 12px 0 0 0;
+        font-size: 20px;
+    }
+}
+
+.messagesWrapp ul li p {
+    text-align: left;
+    font: 400 15px "Circular Std Book", sans-serif;
+    color: #505050;
+    margin: 16px 0 0 0;
+}
+
+@media (max-width: 420px) {
+    .messagesWrapp ul li p {
+        font-size: 13px;
+        margin: 8px 0 0 0;
+    }
+}
+
+    

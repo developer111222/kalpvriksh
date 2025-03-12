@@ -1,0 +1,195 @@
+.teachersWrapper .learners {
+    width: 100%;
+}
+
+.teachersWrapper .learners ul {
+    width: 100%;
+    display: grid;
+    grid-gap: 72px;
+    grid-template-columns: 520px auto;
+    align-items: center;
+    margin: 72px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+    .teachersWrapper .learners ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .teachersWrapper .learners ul {
+        margin: 48px 0 0 0;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 48px;
+    }
+}
+
+@media (max-width: 560px) {
+    .teachersWrapper .learners ul {
+        grid-gap: 24px;
+    }
+}
+
+@media (max-width: 420px) {
+    .teachersWrapper .learners ul {
+        margin: 32px 0 0 0;
+    }
+}
+
+.teachersWrapper .learners ul li {
+    width: 100%;
+}
+
+.teachersWrapper .learners ul li h2 {
+    text-transform: uppercase;
+    font: 400 24px/56px "Circular Std", sans-serif;
+    color: #000;
+}
+
+.teachersWrapper .learners ul li h2 span {
+    text-align: left;
+    /* font: 400 56px/56px "just_lovelyslanted", serif; */
+    color: #1f488d;
+    text-transform: none;
+    margin: 0 0 0 8px;
+    font-size: 50px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width: 420px) {
+    .teachersWrapper .learners ul li h2 span {
+        font: 400 40px/40px "just_lovelyslanted", serif;
+    }
+}
+
+@media (max-width: 420px) {
+    .teachersWrapper .learners ul li h2 {
+        font: 400 18px/40px "Circular Std", sans-serif;
+        text-align: center;
+    }
+}
+
+.teachersWrapper .learners ul li p {
+    text-align: left;
+    font: 400 15px "Circular Std Book", sans-serif;
+    color: #505050;
+    margin: 20px 0 0 0;
+}
+
+@media (max-width: 420px) {
+    .teachersWrapper .learners ul li p {
+        font-size: 14px;
+    }
+}
+
+.teachersWrapper .learners ul li p span {
+    font: 400 15px "Circular Std medium", sans-serif;
+    color: #000;
+}
+
+@media (max-width: 420px) {
+    .teachersWrapper .learners ul li p {
+        font-size: 14px;
+    }
+}
+
+.teachersWrapper .learners ul li .photo {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.teachersWrapper .learners ul li .photo .rightshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    right: 0px;
+    bottom: -34px;
+    border-color: transparent transparent transparent #1f488d;
+    border-style: solid;
+    border-width: 0 0 48px 124px;
+    border-image: none 100% / 1 / 0 stretch;
+    transform: rotate(-1deg);
+}
+
+.teachersWrapper .learners ul li .photo .topshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 0 0 20px 648px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0px;
+    left: 0;
+}
+
+.teachersWrapper .learners ul li .photo .bottomshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #1f488d;
+    border-style: solid;
+    border-width: 0px 220px 40px 72px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: -30px;
+    left: 0;
+    transform: rotate(177deg);
+}
+
+@media (max-width: 1024px) {
+    .teachersWrapper .learners ul li .photo .bottomshape {
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        border-color: transparent transparent #1f488d;
+        border-style: solid;
+        border-width: 0px 93px 27px 37px;
+        border-image: none 100% / 1 / 0 stretch;
+        bottom: -22px;
+        left: 0;
+        transform: rotate(177deg);
+    }
+}
+
+@media (max-width: 768px) {
+    .teachersWrapper .learners ul li .photo .bottomshape {
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        border-color: transparent transparent #1f488d;
+        border-style: solid;
+        border-width: 0px 148px 27px 37px;
+        border-image: none 100% / 1 / 0 stretch;
+        bottom: -21px;
+        left: 0;
+        transform: rotate(177deg);
+    }
+}
+
+.teachersWrapper .learners ul li .photo .leftshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #fff transparent transparent;
+    border-style: solid;
+    border-width: 364px 20px 0px 0;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 0;
+    left: 0;
+}
+
+.teachersWrapper .learners ul li .photo .leftshape1 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #1f488d transparent transparent;
+    border-style: solid;
+    border-width: 399.5px 0px 0px 25px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0px;
+    left: 1px;
+}

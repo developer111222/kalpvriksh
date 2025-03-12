@@ -1,0 +1,72 @@
+.principalMsg {
+    width: 100%;
+    display: grid;
+    grid-gap: 48px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 82px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+    .principalMsg {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 420px) {
+    .principalMsg {
+        grid-gap: 24px;
+    }
+}
+
+.principalMsg .photo {
+    width: 100%;
+}
+
+.principalMsg .photo img {
+    display: block;
+    width: 100%;
+}
+
+.principalMsg .message {
+    width: 100%;
+}
+
+.principalMsg .message h2 {
+    text-align: left;
+    font: 400 48px "Source Serif Pro", serif;
+    color: #E3010F;
+}
+
+@media (max-width: 560px) {
+    .principalMsg .message h2 {
+        font-size: 32px;
+    }
+}
+
+.principalMsg .message b {
+    display: block;
+    width: 100%;
+    text-align: left;
+    font: 400 20px "Circular Std", sans-serif;
+    color: #000;
+    margin: 8px 0 0 0;
+}
+
+@media (max-width: 560px) {
+    .principalMsg .message b {
+        font-size: 16px;
+    }
+}
+
+.principalMsg .message p {
+    text-align: left;
+    font: 400 15px "Circular Std Book", sans-serif;
+    color: #505050;
+    margin: 24px 0 0 0;
+}
+
+.principalMsg .message p span {
+    font: 400 15px "Circular Std medium", sans-serif;
+    color: #000;
+}
