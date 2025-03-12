@@ -1,0 +1,1864 @@
+.sportsWrapper .indoorWrapper {
+    width: 100%;
+    margin: 72px 0 0 0;
+    padding: 0 96px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1280px) {
+    .sportsWrapper .indoorWrapper {
+        padding: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper {
+        max-width: 768px;
+        margin: 72px auto 0 auto;
+    }
+}
+
+.sportsWrapper .indoorWrapper h1 {
+    text-align: center;
+    font: 400 72px "just_lovelyslanted", serif;
+    color: #E3010F;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper h1 {
+        font-size: 56px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper h1 {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 420px) {
+    .sportsWrapper .indoorWrapper h1 {
+        font-size: 40px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .pool {
+    width: 100%;
+    position: relative;
+    margin: 36px 0 0 0;
+    display: grid;
+    grid-template-columns: 650px auto;
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .pool {
+        grid-template-columns: 420px auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .pool {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.sportsWrapper .indoorWrapper .pool .photo {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.sportsWrapper .indoorWrapper .pool .photo .video {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.sportsWrapper .indoorWrapper .pool .photo .video img {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .pool .photo .video video {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .pool .photo .video:hover button.pausesport {
+    background: url() no-repeat center;
+    background-size: 56px;
+    display: inline-block;
+}
+
+.sportsWrapper .indoorWrapper .pool .photo .video button {
+    display: inline-block;
+    border: none;
+    font-size: 0;
+    height: 48px;
+    width: 56px;
+    cursor: pointer;
+    transition: .15s ease-out;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.sportsWrapper .indoorWrapper .pool .photo .video button.playsport {
+    background: url() no-repeat center;
+    background-size: 56px;
+}
+
+.sportsWrapper .indoorWrapper .pool .photo .video button.pausesport {
+    display: none;
+    background: url() no-repeat center;
+    background-size: 56px;
+}
+
+.sportsWrapper .indoorWrapper .pool .photo .photos {
+    width: 100%;
+    margin: 8px 0 0 0;
+}
+
+.sportsWrapper .indoorWrapper .pool .photo .photos ul {
+    width: 100%;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.sportsWrapper .indoorWrapper .pool .photo .photos ul li {
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .pool .photo .photos ul li a {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .pool .photo .photos ul li a img {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .pool .photo .rightshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    right: 0px;
+    border-color: transparent transparent transparent #E3010F;
+    border-style: solid;
+    border-width: 72px 0px 0px 25px;
+    border-image: none 100% / 1 / 0 stretch;
+}
+
+.sportsWrapper .indoorWrapper .pool .photo .topshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 0 728px 12px 0px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0px;
+    left: 0;
+}
+
+.sportsWrapper .indoorWrapper .pool .photo .bottomshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 0px 0px 24px 728px;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.sportsWrapper .indoorWrapper .pool .photo .leftshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #fff transparent transparent;
+    border-style: solid;
+    border-width: 550px 0px 0px 16px;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 0;
+    right: 0;
+}
+
+.sportsWrapper .indoorWrapper .pool .photo .leftshape1 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #E3010F transparent transparent;
+    border-style: solid;
+    border-width: 399.5px 0px 0px 25px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0px;
+    left: 1px;
+}
+
+.sportsWrapper .indoorWrapper .pool .text {
+    width: 100%;
+    max-width: 380px;
+    background-color: #E3010F;
+    padding: 62px 40px 62px 56px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 24px;
+    bottom: 40px;
+}
+
+@media (max-width: 1280px) {
+    .sportsWrapper .indoorWrapper .pool .text {
+        padding: 48px 32px 48px 36px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .pool .text {
+        padding: 20px;
+        max-width: 324px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .pool .text {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        max-width: 486px;
+    }
+}
+
+@media (max-width: 560px) {
+    .sportsWrapper .indoorWrapper .pool .text {
+        max-width: 346px;
+        padding: 16px 20px 20px 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    .sportsWrapper .indoorWrapper .pool .text {
+        max-width: 272px;
+        padding: 16px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .pool .text h2 {
+    text-align: left;
+    font: 400 56px "just_lovelyslanted", serif;
+    color: #fff;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .pool .text h2 {
+        font-size: 40px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .pool .text p {
+    text-align: left;
+    font: 400 15px "Circular Std Book", sans-serif;
+    color: #fff;
+    margin: 24px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .pool .text p {
+        font-size: 13px;
+        margin: 12px 0 0 0;
+    }
+}
+
+.sportsWrapper .indoorWrapper .pool .text .rightshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    right: -24px;
+    border-color: transparent transparent transparent #E3010F;
+    border-style: solid;
+    border-width: 3px 0px 387px 24px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0;
+}
+
+@media (max-width: 1280px) {
+    .sportsWrapper .indoorWrapper .pool .text .rightshape {
+        border-width: 0 0px 326px 24px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .pool .text .rightshape {
+        border-width: 1px 0px 219px 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .pool .text .rightshape {
+        border-width: 1px 0px 186px 24px;
+    }
+}
+
+@media (max-width: 560px) {
+    .sportsWrapper .indoorWrapper .pool .text .rightshape {
+        border-width: 1px 0px 215px 24px;
+    }
+}
+
+@media (max-width: 420px) {
+    .sportsWrapper .indoorWrapper .pool .text .rightshape {
+        border-width: 1px 0px 244px 16px;
+        right: -16px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .pool .text .topshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #E3010F;
+    border-style: solid;
+    border-width: 0 380px 24px 0;
+    border-image: none 100% / 1 / 0 stretch;
+    top: -24px;
+    left: 0;
+}
+
+@media (max-width: 1280px) {
+    .sportsWrapper .indoorWrapper .pool .text .topshape {
+        border-width: 0 405px 24px 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .pool .text .topshape {
+        border-width: 0 349px 24px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .pool .text .topshape {
+        border-width: 0 512px 24px 0;
+        top: -23px;
+    }
+}
+
+@media (max-width: 560px) {
+    .sportsWrapper .indoorWrapper .pool .text .topshape {
+        border-width: 0 375px 16px 0;
+        top: -16px;
+    }
+}
+
+@media (max-width: 420px) {
+    .sportsWrapper .indoorWrapper .pool .text .topshape {
+        border-width: 0 292px 16px 0;
+    }
+}
+
+.sportsWrapper .indoorWrapper .pool .text .bottomshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #E3010F;
+    border-style: solid;
+    border-width: 0px 0px 24px 728px;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.sportsWrapper .indoorWrapper .pool .text .leftshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #E3010F transparent transparent;
+    border-style: solid;
+    border-width: 16px 380px 0px 0px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: -16px;
+    right: 0;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .pool .text .leftshape {
+        border-width: 16px 324px 0px 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .pool .text .leftshape {
+        border-width: 16px 487px 0px 0px;
+    }
+}
+
+@media (max-width: 560px) {
+    .sportsWrapper .indoorWrapper .pool .text .leftshape {
+        border-width: 16px 346px 0px 0px;
+    }
+}
+
+@media (max-width: 420px) {
+    .sportsWrapper .indoorWrapper .pool .text .leftshape {
+        border-width: 16px 272px 0px 0px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .pool .text .leftshape1 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #E3010F transparent transparent;
+    border-style: solid;
+    border-width: 399.5px 0px 0px 25px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0px;
+    left: 1px;
+}
+
+.sportsWrapper .indoorWrapper .taekwondo {
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .taekwondo ul {
+    width: 100%;
+    display: grid;
+    grid-gap: 72px;
+    grid-template-columns: 320px auto;
+    align-items: center;
+    margin: 72px 0 0 0;
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .taekwondo ul {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 24px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .taekwondo ul li {
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .taekwondo ul li h2 {
+    text-align: left;
+    font: 400 56px "just_lovelyslanted", serif;
+    color: #E3010F;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .taekwondo ul li h2 {
+        font-size: 40px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .taekwondo ul li p {
+    text-align: left;
+    font: 400 15px "Circular Std Book", sans-serif;
+    color: #505050;
+    margin: 20px 0 0 0;
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .taekwondo ul li p {
+        font-size: 13px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .taekwondo ul li p span {
+    font: 400 15px "Circular Std medium", sans-serif;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .taekwondo ul li p span {
+        font-size: 13px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .taekwondo ul li .photo {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.sportsWrapper .indoorWrapper .taekwondo ul li .photo .video {
+    display: block;
+    width: 100%;
+    position: relative;
+    aspect-ratio: 16 / 9;
+}
+
+.sportsWrapper .indoorWrapper .taekwondo ul li .photo .video img {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .taekwondo ul li .photo .video video {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .taekwondo ul li .photo .video:hover button.pausesport {
+    background: url() no-repeat center;
+    background-size: 56px;
+    display: inline-block;
+}
+
+.sportsWrapper .indoorWrapper .taekwondo ul li .photo .video button {
+    display: inline-block;
+    border: none;
+    font-size: 0;
+    height: 48px;
+    width: 56px;
+    cursor: pointer;
+    transition: .15s ease-out;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.sportsWrapper .indoorWrapper .taekwondo ul li .photo .video button.playsport {
+    background: url() no-repeat center;
+    background-size: 56px;
+}
+
+.sportsWrapper .indoorWrapper .taekwondo ul li .photo .video button.pausesport {
+    display: none;
+    background: url() no-repeat center;
+    background-size: 56px;
+}
+
+.sportsWrapper .indoorWrapper .taekwondo ul li .photo .photos {
+    width: 100%;
+    margin: 8px 0 0 0;
+}
+
+.sportsWrapper .indoorWrapper .taekwondo ul li .photo .photos ul {
+    width: 100%;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+}
+
+.sportsWrapper .indoorWrapper .taekwondo ul li .photo .photos ul li {
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .taekwondo ul li .photo .photos ul li a {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .taekwondo ul li .photo .photos ul li a img {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .taekwondo ul li .photo .rightshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    right: 0px;
+    bottom: -34px;
+    border-color: transparent transparent transparent #E3010F;
+    border-style: solid;
+    border-width: 0 0 48px 124px;
+    border-image: none 100% / 1 / 0 stretch;
+    transform: rotate(-1deg);
+}
+
+.sportsWrapper .indoorWrapper .taekwondo ul li .photo .topshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 0 0 20px 648px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0px;
+    left: 0;
+}
+
+.sportsWrapper .indoorWrapper .taekwondo ul li .photo .bottomshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 0px 0px 24px 728px;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.sportsWrapper .indoorWrapper .taekwondo ul li .photo .leftshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #fff transparent transparent;
+    border-style: solid;
+    border-width: 364px 20px 0px 0;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 0;
+    left: 0;
+}
+
+.sportsWrapper .indoorWrapper .taekwondo ul li .photo .leftshape1 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #E3010F transparent transparent;
+    border-style: solid;
+    border-width: 399.5px 0px 0px 25px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0px;
+    left: 1px;
+}
+
+.sportsWrapper .indoorWrapper .boxing {
+    width: 100%;
+    margin: 72px 0 0 0;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .boxing {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.sportsWrapper .indoorWrapper .boxing .photo {
+    width: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .boxing .photo {
+        height: auto;
+        width: 420px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .boxing .photo {
+        width: 100%;
+    }
+}
+
+.sportsWrapper .indoorWrapper .boxing .photo .video {
+    display: block;
+    width: 100%;
+    position: relative;
+    aspect-ratio: 16 / 9;
+}
+
+.sportsWrapper .indoorWrapper .boxing .photo .video img {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .boxing .photo .video video {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .boxing .photo .video:hover button.pausesport {
+    background: url() no-repeat center;
+    background-size: 56px;
+    display: inline-block;
+}
+
+.sportsWrapper .indoorWrapper .boxing .photo .video button {
+    display: inline-block;
+    border: none;
+    font-size: 0;
+    height: 48px;
+    width: 56px;
+    cursor: pointer;
+    transition: .15s ease-out;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.sportsWrapper .indoorWrapper .boxing .photo .video button.playsport {
+    background: url() no-repeat center;
+    background-size: 56px;
+}
+
+.sportsWrapper .indoorWrapper .boxing .photo .video button.pausesport {
+    display: none;
+    background: url() no-repeat center;
+    background-size: 56px;
+}
+
+.sportsWrapper .indoorWrapper .boxing .photo .photos {
+    width: 100%;
+    margin: 8px 0 0 0;
+}
+
+.sportsWrapper .indoorWrapper .boxing .photo .photos ul {
+    width: 100%;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+}
+
+.sportsWrapper .indoorWrapper .boxing .photo .photos ul li {
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .boxing .photo .photos ul li a {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .boxing .photo .photos ul li a img {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .boxing .photo .rightshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    right: 0px;
+    border-color: transparent transparent transparent #E3010F;
+    border-style: solid;
+    border-width: 72px 0px 0px 25px;
+    border-image: none 100% / 1 / 0 stretch;
+}
+
+.sportsWrapper .indoorWrapper .boxing .photo .topshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 0 0px 490px 40px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0px;
+    right: 0;
+}
+
+.sportsWrapper .indoorWrapper .boxing .photo .bottomshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 0px 0px 30px 600px;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.sportsWrapper .indoorWrapper .boxing .photo .leftshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #fff transparent transparent;
+    border-style: solid;
+    border-width: 550px 0px 0px 16px;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 0;
+    right: 0;
+}
+
+.sportsWrapper .indoorWrapper .boxing .photo .leftshape1 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #E3010F transparent transparent;
+    border-style: solid;
+    border-width: 399.5px 0px 0px 25px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0px;
+    left: 1px;
+}
+
+.sportsWrapper .indoorWrapper .boxing .text {
+    width: 100%;
+    max-width: 448px;
+    background-color: #E3010F;
+    padding: 48px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    bottom: 72px;
+    height: 360px;
+}
+
+@media (max-width: 1280px) {
+    .sportsWrapper .indoorWrapper .boxing .text {
+        padding: 40px;
+        max-width: 370px;
+        right: 24px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .boxing .text {
+        padding: 32px;
+        box-sizing: border-box;
+        max-width: 300px;
+        height: 300px;
+        right: 48px;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .boxing .text {
+        position: relative;
+        bottom: 0;
+        right: -44px;
+        max-width: 420px;
+        height: 240px;
+    }
+}
+
+@media (max-width: 560px) {
+    .sportsWrapper .indoorWrapper .boxing .text {
+        max-width: 312px;
+        padding: 8px 24px 24px 24px;
+    }
+}
+
+@media (max-width: 420px) {
+    .sportsWrapper .indoorWrapper .boxing .text {
+        padding: 16px;
+        right: -16px;
+        max-width: 260px;
+        height: 270px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .boxing .text h2 {
+    text-align: left;
+    font: 400 56px "just_lovelyslanted", serif;
+    color: #fff;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .boxing .text h2 {
+        font-size: 40px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .boxing .text p {
+    text-align: left;
+    font: 400 15px "Circular Std Book", sans-serif;
+    color: #fff;
+    margin: 24px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .boxing .text p {
+        font-size: 13px;
+        margin: 8px 0 0 0;
+    }
+}
+
+.sportsWrapper .indoorWrapper .boxing .text .rightshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: -29px;
+    border-color: transparent transparent transparent #E3010F;
+    border-style: solid;
+    border-width: 0 0px 360px 30px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0;
+    transform: rotate(180deg);
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .boxing .text .rightshape {
+        border-width: 0 0px 300px 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .boxing .text .rightshape {
+        border-width: 0 0px 241px 30px;
+    }
+}
+
+@media (max-width: 420px) {
+    .sportsWrapper .indoorWrapper .boxing .text .rightshape {
+        border-width: 0 0px 270px 16px;
+        left: -16px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .boxing .text .topshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #E3010F;
+    border-style: solid;
+    border-width: 0 24px 361px 0;
+    border-image: none 100% / 1 / 0 stretch;
+    right: -11px;
+    bottom: -1px;
+    transform: rotate(-176deg);
+}
+
+@media (max-width: 1280px) {
+    .sportsWrapper .indoorWrapper .boxing .text .topshape {
+        border-width: 0px 24px 370px 0px;
+        right: -9px;
+        transform: rotate(-177deg);
+    }
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .boxing .text .topshape {
+        border-width: 0px 24px 323px 0px;
+        right: -8px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .boxing .text .topshape {
+        border-width: 0px 24px 264px 0px;
+        right: -7px;
+    }
+}
+
+@media (max-width: 420px) {
+    .sportsWrapper .indoorWrapper .boxing .text .topshape {
+        border-width: 0px 24px 272px 0px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .boxing .text .bottomshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #E3010F;
+    border-style: solid;
+    border-width: 0px 0px 24px 474px;
+    border-image: none 100% / 1 / 0 stretch;
+    top: -22px;
+    left: -2px;
+}
+
+@media (max-width: 1280px) {
+    .sportsWrapper .indoorWrapper .boxing .text .bottomshape {
+        border-width: 0px 0px 24px 392px;
+        top: -24px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .boxing .text .bottomshape {
+        border-width: 0px 0px 24px 318px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .boxing .text .bottomshape {
+        border-width: 0px 0px 24px 436px;
+    }
+}
+
+@media (max-width: 560px) {
+    .sportsWrapper .indoorWrapper .boxing .text .bottomshape {
+        border-width: 0px 0px 24px 326px;
+    }
+}
+
+@media (max-width: 420px) {
+    .sportsWrapper .indoorWrapper .boxing .text .bottomshape {
+        border-width: 0px 0px 16px 276px;
+        top: -16px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .boxing .text .leftshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #E3010F transparent transparent;
+    border-style: solid;
+    border-width: 16px 478px 0px 0px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: -16px;
+    left: -30px;
+}
+
+@media (max-width: 1280px) {
+    .sportsWrapper .indoorWrapper .boxing .text .leftshape {
+        border-width: 16px 400px 0px 0px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .boxing .text .leftshape {
+        border-width: 16px 331px 0px 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .boxing .text .leftshape {
+        border-width: 16px 450px 0px 0px;
+    }
+}
+
+@media (max-width: 560px) {
+    .sportsWrapper .indoorWrapper .boxing .text .leftshape {
+        border-width: 16px 343px 0px 0px;
+    }
+}
+
+@media (max-width: 420px) {
+    .sportsWrapper .indoorWrapper .boxing .text .leftshape {
+        border-width: 16px 276px 0px 0px;
+        left: -16px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .boxing .text .leftshape1 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #E3010F transparent transparent;
+    border-style: solid;
+    border-width: 399.5px 0px 0px 25px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0px;
+    left: 1px;
+}
+
+.sportsWrapper .indoorWrapper .tabletennis {
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .tabletennis ul {
+    width: 100%;
+    display: grid;
+    grid-gap: 72px;
+    grid-template-columns: 320px auto;
+    align-items: center;
+    margin: 72px 0 0 0;
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .tabletennis ul {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 24px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .tabletennis ul li {
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .tabletennis ul li h2 {
+    text-align: left;
+    font: 400 56px "just_lovelyslanted", serif;
+    color: #E3010F;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .tabletennis ul li h2 {
+        font-size: 40px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .tabletennis ul li p {
+    text-align: left;
+    font: 400 15px "Circular Std Book", sans-serif;
+    color: #505050;
+    margin: 20px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .tabletennis ul li p {
+        font-size: 13px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .tabletennis ul li p span {
+    font: 400 15px "Circular Std medium", sans-serif;
+    color: #000;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .tabletennis ul li p span {
+        font-size: 13px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .tabletennis ul li .photo {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.sportsWrapper .indoorWrapper .tabletennis ul li .photo .video {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.sportsWrapper .indoorWrapper .tabletennis ul li .photo .video img {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .tabletennis ul li .photo .video video {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .tabletennis ul li .photo .video:hover button.pausesport {
+    background: url() no-repeat center;
+    background-size: 56px;
+    display: inline-block;
+}
+
+.sportsWrapper .indoorWrapper .tabletennis ul li .photo .video button {
+    display: inline-block;
+    border: none;
+    font-size: 0;
+    height: 48px;
+    width: 56px;
+    cursor: pointer;
+    transition: .15s ease-out;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.sportsWrapper .indoorWrapper .tabletennis ul li .photo .video button.playsport {
+    background: url() no-repeat center;
+    background-size: 56px;
+}
+
+.sportsWrapper .indoorWrapper .tabletennis ul li .photo .video button.pausesport {
+    display: none;
+    background: url() no-repeat center;
+    background-size: 56px;
+}
+
+.sportsWrapper .indoorWrapper .tabletennis ul li .photo .photos {
+    width: 100%;
+    margin: 8px 0 0 0;
+}
+
+.sportsWrapper .indoorWrapper .tabletennis ul li .photo .photos ul {
+    width: 100%;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+}
+
+.sportsWrapper .indoorWrapper .tabletennis ul li .photo .photos ul li {
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .tabletennis ul li .photo .photos ul li a {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .tabletennis ul li .photo .photos ul li a img {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .tabletennis ul li .photo .rightshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    right: 0px;
+    bottom: -30px;
+    border-color: transparent transparent transparent #E3010F;
+    border-style: solid;
+    border-width: 0px 0 49px 250px;
+    border-image: none 100% / 1 / 0 stretch;
+    transform: rotate(-2deg);
+}
+
+.sportsWrapper .indoorWrapper .tabletennis ul li .photo .topshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 0 0 20px 648px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0px;
+    left: 0;
+}
+
+.sportsWrapper .indoorWrapper .tabletennis ul li .photo .bottomshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 0px 0px 24px 728px;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.sportsWrapper .indoorWrapper .tabletennis ul li .photo .leftshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #fff transparent transparent;
+    border-style: solid;
+    border-width: 364px 20px 0px 0;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 0;
+    left: 0;
+}
+
+.sportsWrapper .indoorWrapper .tabletennis ul li .photo .leftshape1 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #E3010F transparent transparent;
+    border-style: solid;
+    border-width: 399.5px 0px 0px 25px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0px;
+    left: 1px;
+}
+
+.sportsWrapper .indoorWrapper .yoga {
+    width: 100%;
+    margin: 96px 0 0 0;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .yoga {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.sportsWrapper .indoorWrapper .yoga .photo {
+    width: 680px;
+    overflow: hidden;
+    position: relative;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .yoga .photo {
+        width: 420px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .yoga .photo {
+        width: 100%;
+    }
+}
+
+.sportsWrapper .indoorWrapper .yoga .photo .video {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.sportsWrapper .indoorWrapper .yoga .photo .video img {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .yoga .photo .video video {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .yoga .photo .video:hover button.pausesport {
+    background: url() no-repeat center;
+    background-size: 56px;
+    display: inline-block;
+}
+
+.sportsWrapper .indoorWrapper .yoga .photo .video button {
+    display: inline-block;
+    border: none;
+    font-size: 0;
+    height: 48px;
+    width: 56px;
+    cursor: pointer;
+    transition: .15s ease-out;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.sportsWrapper .indoorWrapper .yoga .photo .video button.playsport {
+    background: url() no-repeat center;
+    background-size: 56px;
+}
+
+.sportsWrapper .indoorWrapper .yoga .photo .video button.pausesport {
+    display:() no-repeat center;
+    background-size: 56px;
+}
+
+.sportsWrapper .indoorWrapper .yoga .photo .photos {
+    width: 100%;
+    margin: 8px 0 0 0;
+}
+
+.sportsWrapper .indoorWrapper .yoga .photo .photos ul {
+    width: 100%;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+}
+
+.sportsWrapper .indoorWrapper .yoga .photo .photos ul li {
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .yoga .photo .photos ul li a {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .yoga .photo .photos ul li a img {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .yoga .photo .rightshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: 0px;
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+    border-width: 540px 0px 0px 25px;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 0;
+}
+
+.sportsWrapper .indoorWrapper .yoga .photo .topshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 0 728px 24px 0px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0px;
+    left: 0;
+}
+
+.sportsWrapper .indoorWrapper .yoga .photo .bottomshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 0px 0px 24px 728px;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.sportsWrapper .indoorWrapper .yoga .photo .leftshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #fff transparent transparent;
+    border-style: solid;
+    border-width: 552px 0px 0px 24px;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 0;
+    right: -14px;
+    transform: rotate(182deg);
+}
+
+.sportsWrapper .indoorWrapper .yoga .photo .leftshape1 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #E3010F transparent transparent;
+    border-style: solid;
+    border-width: 399.5px 0px 0px 25px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0px;
+    left: 1px;
+}
+
+.sportsWrapper .indoorWrapper .yoga .text {
+    width: 100%;
+    max-width: 380px;
+    background-color: #E3010F;
+    padding: 40px 40px 40px 56px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    bottom: 48px;
+}
+
+@media (max-width: 1280px) {
+    .sportsWrapper .indoorWrapper .yoga .text {
+        padding: 24px 24px 24px 36px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .yoga .text {
+        max-width: 348px;
+        bottom: 36px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .yoga .text {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        max-width: 512px;
+    }
+}
+
+@media (max-width: 560px) {
+    .sportsWrapper .indoorWrapper .yoga .text {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 420px) {
+    .sportsWrapper .indoorWrapper .yoga .text {
+        padding: 20px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .yoga .text h2 {
+    text-align: left;
+    font: 400 56px "just_lovelyslanted", serif;
+    color: #fff;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .yoga .text h2 {
+        font-size: 40px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .yoga .text p {
+    text-align: left;
+    font: 400 15px "Circular Std Book", sans-serif;
+    color: #fff;
+    margin: 24px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .yoga .text p {
+        font-size: 13px;
+        margin: 8px 0 0 0;
+    }
+}
+
+.sportsWrapper .indoorWrapper .yoga .text .rightshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    right: -24px;
+    border-color: transparent transparent transparent #E3010F;
+    border-style: solid;
+    border-width: 3px 0px 387px 24px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0;
+}
+
+.sportsWrapper .indoorWrapper .yoga .text .topshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #E3010F;
+    border-style: solid;
+    border-width: 0 380px 24px 0;
+    border-image: none 100% / 1 / 0 stretch;
+    top: -10px;
+    left: 0;
+    transform: rotate(177deg);
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .yoga .text .topshape {
+        border-width: 0 348px 24px 0;
+        top: -9px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .yoga .text .topshape {
+        border-width: 0 512px 24px 0;
+        top: -9px;
+        transform: rotate(178deg);
+    }
+}
+
+@media (max-width: 560px) {
+    .sportsWrapper .indoorWrapper .yoga .text .topshape {
+        border-width: 0 372px 24px 0;
+        top: -7px;
+    }
+}
+
+@media (max-width: 420px) {
+    .sportsWrapper .indoorWrapper .yoga .text .topshape {
+        border-width: 0 292px 16px 0;
+        top: -5px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .yoga .text .bottomshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #E3010F;
+    border-style: solid;
+    border-width: 0px 0px 24px 728px;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.sportsWrapper .indoorWrapper .yoga .text .leftshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #E3010F transparent transparent;
+    border-style: solid;
+    border-width: 16px 380px 0px 0px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: -7px;
+    right: 0;
+    transform: rotate(182deg);
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .yoga .text .leftshape {
+        border-width: 16px 347px 0px 0px;
+        bottom: -6px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .yoga .text .leftshape {
+        border-width: 16px 512px 0px 0px;
+        transform: rotate(181deg);
+        bottom: -5px;
+    }
+}
+
+@media (max-width: 560px) {
+    .sportsWrapper .indoorWrapper .yoga .text .leftshape {
+        border-width: 16px 372px 0px 0px;
+        bottom: -3px;
+    }
+}
+
+@media (max-width: 420px) {
+    .sportsWrapper .indoorWrapper .yoga .text .leftshape {
+        border-width: 16px 292px 0px 0px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .yoga .text .leftshape1 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #E3010F transparent transparent;
+    border-style: solid;
+    border-width: 399.5px 0px 0px 25px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0px;
+    left: 1px;
+}
+
+.sportsWrapper .indoorWrapper .chess {
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .chess ul {
+    width: 100%;
+    display: grid;
+    grid-gap: 124px;
+    grid-template-columns: 320px auto;
+    align-items: center;
+    margin: 72px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .chess ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .chess ul {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 72px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .chess ul li {
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .chess ul li h2 {
+    text-align: left;
+    font: 400 56px "just_lovelyslanted", serif;
+    color: #E3010F;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .chess ul li h2 {
+        font-size: 40px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .chess ul li p {
+    text-align: left;
+    font: 400 15px "Circular Std Book", sans-serif;
+    color: #505050;
+    margin: 20px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .chess ul li p {
+        font-size: 13px;
+        margin: 16px 0 0 0;
+    }
+}
+
+.sportsWrapper .indoorWrapper .chess ul li p span {
+    font: 400 15px "Circular Std medium", sans-serif;
+    color: #000;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .chess ul li p span {
+        font-size: 13px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .chess ul li .photo {
+    width: 100%;
+    position: relative;
+    padding: 24px 24px 40px 24px;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #E3010F;
+    right: 32px;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .indoorWrapper .chess ul li .photo {
+        right: 0;
+        padding: 24px 24px 24px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .chess ul li .photo {
+        padding: 0 24px;
+        right: 0;
+    }
+}
+
+.sportsWrapper .indoorWrapper .chess ul li .photo span {
+    display: block;
+    width: 100%;
+    position: relative;
+    right: 48px;
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .indoorWrapper .chess ul li .photo span {
+        right: 0;
+        top: -48px;
+    }
+}
+
+.sportsWrapper .indoorWrapper .chess ul li .photo span .video {
+    display: block;
+    width: 100%;
+    position: relative;
+    aspect-ratio: 16 / 9;
+}
+
+.sportsWrapper .indoorWrapper .chess ul li .photo span .video img {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .chess ul li .photo span .video video {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .chess ul li .photo span .video:hover button.pausesport {
+    background: url() no-repeat center;
+    background-size: 56px;
+    display: inline-block;
+}
+
+.sportsWrapper .indoorWrapper .chess ul li .photo span .video button {
+    display: inline-block;
+    border: none;
+    font-size: 0;
+    height: 48px;
+    width: 56px;
+    cursor: pointer;
+    transition: .15s ease-out;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.sportsWrapper .indoorWrapper .chess ul li .photo span .video button.playsport {
+    background: url() no-repeat center;
+    background-size: 56px;
+}
+
+.sportsWrapper .indoorWrapper .chess ul li .photo span .video button.pausesport {
+    display: none;
+    background: url() no-repeat center;
+    background-size: 56px;
+}
+
+.sportsWrapper .indoorWrapper .chess ul li .photo span .photos {
+    width: 100%;
+    margin: 8px 0 0 0;
+}
+
+.sportsWrapper .indoorWrapper .chess ul li .photo span .photos ul {
+    width: 100%;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+}
+
+.sportsWrapper .indoorWrapper .chess ul li .photo span .photos ul li {
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .chess ul li .photo span .photos ul li a {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .chess ul li .photo span .photos ul li a img {
+    display: block;
+    width: 100%;
+}
+
+.sportsWrapper .indoorWrapper .chess ul li .photo .rightshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    right: 0px;
+    bottom: -30px;
+    border-color: transparent transparent transparent #E3010F;
+    border-style: solid;
+    border-width: 0px 0 49px 250px;
+    border-image: none 100% / 1 / 0 stretch;
+    transform: rotate(-2deg);
+}
+
+.sportsWrapper .indoorWrapper .chess ul li .photo .topshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #E3010F;
+    border-style: solid;
+    border-width: 0 616px 21px 2px;
+    border-image: none 100% / 1 / 0 stretch;
+    top: -9px;
+    left: 0;
+    transform: rotate(-182deg);
+}
+
+.sportsWrapper .indoorWrapper .chess ul li .photo .bottomshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 0px 0px 24px 728px;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.sportsWrapper .indoorWrapper .chess ul li .photo .leftshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #E3010F transparent transparent;
+    border-style: solid;
+    border-width: 372px 20px 0px 0;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 0;
+    right: -20px;
+}
+
+.sportsWrapper .indoorWrapper .chess ul li .photo .leftshape1 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #E3010F transparent transparent;
+    border-style: solid;
+    border-width: 399.5px 0px 0px 25px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0px;
+    left: 1px;
+}

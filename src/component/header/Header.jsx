@@ -106,7 +106,7 @@ const Header = () => {
                   </NavLink>
                 </dt>
                 <dt>
-                  <NavLink to="sports">
+                  <NavLink to="/sport">
                     <small>SPORTS FACILITIES</small>
                     <span className="topshape"></span>
                     <span className="rightshape"></span>

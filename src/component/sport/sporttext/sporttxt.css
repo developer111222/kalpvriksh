@@ -1,0 +1,182 @@
+.sportsWrapper .sportsTextWrapp {
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .sportsTextWrapp {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 560px) {
+    .sportsWrapper .sportsTextWrapp {
+        margin: 0;
+    }
+}
+
+.sportsWrapper .sportsTextWrapp .sportstxtCon {
+    width: 100%;
+    padding: 62px 0 0 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .sportsTextWrapp .sportstxtCon {
+        padding: 48px 0 0 0;
+    }
+}
+
+@media (max-width: 560px) {
+    .sportsWrapper .sportsTextWrapp .sportstxtCon {
+        padding: 28px 0 0 0;
+    }
+}
+
+.sportsWrapper .sportsTextWrapp .sportstxtCon .topshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 1px 0px 62px 1040px;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 0;
+    left: 0;
+}
+
+@media (max-width: 1280px) {
+    .sportsWrapper .sportsTextWrapp .sportstxtCon .topshape {
+        border-width: 1px 0px 62px 784px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .sportsTextWrapp .sportstxtCon .topshape {
+        border-width: 1px 0px 62px 624px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .sportsTextWrapp .sportstxtCon .topshape {
+        border-width: 1px 0px 62px 416px;
+    }
+}
+
+@media (max-width: 560px) {
+    .sportsWrapper .sportsTextWrapp .sportstxtCon .topshape {
+        border-width: 1px 0px 28px 308px;
+    }
+}
+
+@media (max-width: 420px) {
+    .sportsWrapper .sportsTextWrapp .sportstxtCon .topshape {
+        border-width: 1px 0px 28px 244px;
+    }
+}
+
+.sportsWrapper .sportsTextWrapp .sportstxtCon .txtCon {
+    width: 100%;
+    background-color: #fff;
+    padding: 0 96px;
+    box-sizing: border-box;
+    /*h1{
+                    text-align: center;
+                    font: 400 72px $justslanted;
+                    color: $red;
+
+                    @include desktop(){
+                        font-size: 62px;
+                    }
+
+                    @include tablet(){
+                        font-size: 52px;
+                    }
+
+                    @include xs(){
+                        font-size: 48px;
+                    }
+                }*/
+}
+
+@media (max-width: 1280px) {
+    .sportsWrapper .sportsTextWrapp .sportstxtCon .txtCon {
+        padding: 0;
+    }
+}
+
+.sportsWrapper .sportsTextWrapp .sportstxtCon .txtCon b {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font: 400 24px "Source Serif Pro", serif;
+    color: #000;
+    margin: 40px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .sportsTextWrapp .sportstxtCon .txtCon b {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .sportsTextWrapp .sportstxtCon .txtCon b {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 560px) {
+    .sportsWrapper .sportsTextWrapp .sportstxtCon .txtCon b {
+        font-size: 16px;
+        margin: 16px 0 0 0;
+    }
+}
+
+.sportsWrapper .sportsTextWrapp .sportstxtCon .txtCon b span {
+    color: #E3010F;
+}
+
+.sportsWrapper .sportsTextWrapp .sportstxtCon .txtCon ul {
+    width: 100%;
+    display: grid;
+    grid-gap: 62px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 24px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+    .sportsWrapper .sportsTextWrapp .sportstxtCon .txtCon ul {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 8px;
+    }
+}
+
+.sportsWrapper .sportsTextWrapp .sportstxtCon .txtCon ul li {
+    width: 100%;
+}
+
+.sportsWrapper .sportsTextWrapp .sportstxtCon .txtCon ul li p {
+    text-align: left;
+    font: 400 14px/19px "Circular Std Book", sans-serif;
+    color: #505050;
+    margin: 24px 0 0 0;
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .sportsTextWrapp .sportstxtCon .txtCon ul li p {
+        font: 400 13px/18px "Circular Std Book", sans-serif;
+    }
+}
+
+.sportsWrapper .sportsTextWrapp .sportstxtCon .txtCon ul li p span {
+    font: 400 14px/19px "Circular Std medium", sans-serif;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .sportsWrapper .sportsTextWrapp .sportstxtCon .txtCon ul li p span {
+        font: 400 13px/18px "Circular Std medium", sans-serif;
+    }
+}

@@ -5,6 +5,7 @@ import Footer from './component/footer/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AboutPage from './component/about/AboutPage';
 import OurEducator from './component/oureducator/OurEducator';
+import Sport from './component/sport/Sport';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path='our-educator' element={<OurEducator/>} />
+          <Route path='sport' element={<Sport/>} />
         </Routes>
         <Footer /> {/* Footer will also have access to routing context */}
       </div>
