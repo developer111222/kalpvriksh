@@ -275,7 +275,7 @@
     @media (max-width: 560px) {
         .header .header_top header ul li .admfollow dt a {
             margin: 0 0 4px 0;
-            /* font-size: 10px; */
+            font-size: 13px;
         }
     }
 
