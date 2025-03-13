@@ -1,0 +1,95 @@
+.lifeatWrapper .literacy {
+    width: 100%;
+    display: grid;
+    grid-gap: 72px;
+    grid-template-columns: 640px auto;
+    align-items: center;
+    max-width: 1280px;
+    padding: 0 24px;
+    box-sizing: border-box;
+    margin: 72px auto 0 auto;
+}
+
+@media (max-width: 1280px) {
+    .lifeatWrapper .literacy {
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .lifeatWrapper .literacy {
+        max-width: 768px;
+        grid-template-columns: 420px auto;
+        grid-gap: 36px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lifeatWrapper .literacy {
+        max-width: 560px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 24px;
+    }
+}
+
+@media (max-width: 560px) {
+    .lifeatWrapper .literacy {
+        max-width: 420px;
+    }
+}
+
+@media (max-width: 420px) {
+    .lifeatWrapper .literacy {
+        max-width: 340px;
+    }
+}
+
+.lifeatWrapper .literacy li {
+    width: 100%;
+}
+
+.lifeatWrapper .literacy li .photo {
+    width: 100%;
+}
+
+.lifeatWrapper .literacy li .photo img {
+    display: block;
+    width: 100%;
+}
+
+.lifeatWrapper .literacy li h2 {
+    text-align: left;
+    /* font: 400 56px "just_lovelyslanted", serif; */
+    color: #1f488d;
+    font-size: 50px;
+}
+
+@media (max-width: 1024px) {
+    .lifeatWrapper .literacy li h2 {
+        font-size: 40px;
+    }
+}
+
+.lifeatWrapper .literacy li p {
+    text-align: left;
+    font: 400 15px "Circular Std Book", sans-serif;
+    color: #505050;
+    margin: 20px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+    .lifeatWrapper .literacy li p {
+        font-size: 13px;
+    }
+}
+
+.lifeatWrapper .literacy li p span {
+    font: 400 15px "Circular Std medium", sans-serif;
+    color: #000;
+}
+
+@media (max-width: 1024px) {
+    .lifeatWrapper .literacy li p span {
+        font-size: 13px;
+    }
+}

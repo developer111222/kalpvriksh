@@ -20,8 +20,12 @@
 
 .sportsWrapper .indoorWrapper h1 {
     text-align: center;
-    font: 400 72px "just_lovelyslanted", serif;
-    color: #E3010F;
+    /* font: 400 72px "just_lovelyslanted", serif; */
+    color: #1f488d;
+    font-size: 50px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 @media (max-width: 1024px) {
@@ -150,7 +154,7 @@
     width: 0px;
     height: 0px;
     right: 0px;
-    border-color: transparent transparent transparent #E3010F;
+    border-color: transparent transparent transparent #1f488d;
     border-style: solid;
     border-width: 72px 0px 0px 25px;
     border-image: none 100% / 1 / 0 stretch;
@@ -197,7 +201,7 @@
     position: absolute;
     width: 0px;
     height: 0px;
-    border-color: #E3010F transparent transparent;
+    border-color: #1f488d transparent transparent;
     border-style: solid;
     border-width: 399.5px 0px 0px 25px;
     border-image: none 100% / 1 / 0 stretch;
@@ -208,7 +212,7 @@
 .sportsWrapper .indoorWrapper .pool .text {
     width: 100%;
     max-width: 380px;
-    background-color: #E3010F;
+    background-color: #1f488d;
     padding: 62px 40px 62px 56px;
     box-sizing: border-box;
     position: absolute;
@@ -254,8 +258,12 @@
 
 .sportsWrapper .indoorWrapper .pool .text h2 {
     text-align: left;
-    font: 400 56px "just_lovelyslanted", serif;
+    /* font: 400 56px "just_lovelyslanted", serif; */
     color: #fff;
+    font-size: 40px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 @media (max-width: 1024px) {
@@ -283,7 +291,7 @@
     width: 0px;
     height: 0px;
     right: -24px;
-    border-color: transparent transparent transparent #E3010F;
+    border-color: transparent transparent transparent #1f488d;
     border-style: solid;
     border-width: 3px 0px 387px 24px;
     border-image: none 100% / 1 / 0 stretch;
@@ -325,7 +333,7 @@
     position: absolute;
     width: 0px;
     height: 0px;
-    border-color: transparent transparent #E3010F;
+    border-color: transparent transparent #1f488d;
     border-style: solid;
     border-width: 0 380px 24px 0;
     border-image: none 100% / 1 / 0 stretch;
@@ -369,7 +377,7 @@
     position: absolute;
     width: 0px;
     height: 0px;
-    border-color: transparent transparent #E3010F;
+    border-color: transparent transparent #1f488d;
     border-style: solid;
     border-width: 0px 0px 24px 728px;
     border-image: none 100% / 1 / 0 stretch;
@@ -382,7 +390,7 @@
     position: absolute;
     width: 0px;
     height: 0px;
-    border-color: #E3010F transparent transparent;
+    border-color: #1f488d transparent transparent;
     border-style: solid;
     border-width: 16px 380px 0px 0px;
     border-image: none 100% / 1 / 0 stretch;
@@ -418,7 +426,7 @@
     position: absolute;
     width: 0px;
     height: 0px;
-    border-color: #E3010F transparent transparent;
+    border-color: #1f488d transparent transparent;
     border-style: solid;
     border-width: 399.5px 0px 0px 25px;
     border-image: none 100% / 1 / 0 stretch;
@@ -452,8 +460,12 @@
 
 .sportsWrapper .indoorWrapper .taekwondo ul li h2 {
     text-align: left;
-    font: 400 56px "just_lovelyslanted", serif;
-    color: #E3010F;
+    /* font: 400 56px "just_lovelyslanted", serif; */
+    color: #1f488d;
+    font-size: 40px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 @media (max-width: 1024px) {
@@ -575,7 +587,7 @@
     height: 0px;
     right: 0px;
     bottom: -34px;
-    border-color: transparent transparent transparent #E3010F;
+    border-color: transparent transparent transparent #1f488d;
     border-style: solid;
     border-width: 0 0 48px 124px;
     border-image: none 100% / 1 / 0 stretch;
@@ -623,7 +635,7 @@
     position: absolute;
     width: 0px;
     height: 0px;
-    border-color: #E3010F transparent transparent;
+    border-color: #1f488d transparent transparent;
     border-style: solid;
     border-width: 399.5px 0px 0px 25px;
     border-image: none 100% / 1 / 0 stretch;
@@ -745,7 +757,7 @@
     width: 0px;
     height: 0px;
     right: 0px;
-    border-color: transparent transparent transparent #E3010F;
+    border-color: transparent transparent transparent #1f488d;
     border-style: solid;
     border-width: 72px 0px 0px 25px;
     border-image: none 100% / 1 / 0 stretch;
@@ -792,7 +804,7 @@
     position: absolute;
     width: 0px;
     height: 0px;
-    border-color: #E3010F transparent transparent;
+    border-color: #1f488d transparent transparent;
     border-style: solid;
     border-width: 399.5px 0px 0px 25px;
     border-image: none 100% / 1 / 0 stretch;
@@ -803,7 +815,7 @@
 .sportsWrapper .indoorWrapper .boxing .text {
     width: 100%;
     max-width: 448px;
-    background-color: #E3010F;
+    background-color: #1f488d;
     padding: 48px;
     box-sizing: border-box;
     position: absolute;
@@ -859,8 +871,12 @@
 
 .sportsWrapper .indoorWrapper .boxing .text h2 {
     text-align: left;
-    font: 400 56px "just_lovelyslanted", serif;
+    /* font: 400 56px "just_lovelyslanted", serif; */
     color: #fff;
+    font-size: 40px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 @media (max-width: 1024px) {
@@ -888,7 +904,7 @@
     width: 0px;
     height: 0px;
     left: -29px;
-    border-color: transparent transparent transparent #E3010F;
+    border-color: transparent transparent transparent #1f488d;
     border-style: solid;
     border-width: 0 0px 360px 30px;
     border-image: none 100% / 1 / 0 stretch;
@@ -919,7 +935,7 @@
     position: absolute;
     width: 0px;
     height: 0px;
-    border-color: transparent transparent #E3010F;
+    border-color: transparent transparent #1f488d;
     border-style: solid;
     border-width: 0 24px 361px 0;
     border-image: none 100% / 1 / 0 stretch;
@@ -960,7 +976,7 @@
     position: absolute;
     width: 0px;
     height: 0px;
-    border-color: transparent transparent #E3010F;
+    border-color: transparent transparent #1f488d;
     border-style: solid;
     border-width: 0px 0px 24px 474px;
     border-image: none 100% / 1 / 0 stretch;
@@ -1004,7 +1020,7 @@
     position: absolute;
     width: 0px;
     height: 0px;
-    border-color: #E3010F transparent transparent;
+    border-color: #1f488d transparent transparent;
     border-style: solid;
     border-width: 16px 478px 0px 0px;
     border-image: none 100% / 1 / 0 stretch;
@@ -1047,7 +1063,7 @@
     position: absolute;
     width: 0px;
     height: 0px;
-    border-color: #E3010F transparent transparent;
+    border-color: #1f488d transparent transparent;
     border-style: solid;
     border-width: 399.5px 0px 0px 25px;
     border-image: none 100% / 1 / 0 stretch;
@@ -1082,7 +1098,7 @@
 .sportsWrapper .indoorWrapper .tabletennis ul li h2 {
     text-align: left;
     font: 400 56px "just_lovelyslanted", serif;
-    color: #E3010F;
+    color: #1f488d;
 }
 
 @media (max-width: 1024px) {
@@ -1203,7 +1219,7 @@
     height: 0px;
     right: 0px;
     bottom: -30px;
-    border-color: transparent transparent transparent #E3010F;
+    border-color: transparent transparent transparent #1f488d;
     border-style: solid;
     border-width: 0px 0 49px 250px;
     border-image: none 100% / 1 / 0 stretch;
@@ -1251,7 +1267,7 @@
     position: absolute;
     width: 0px;
     height: 0px;
-    border-color: #E3010F transparent transparent;
+    border-color: #1f488d transparent transparent;
     border-style: solid;
     border-width: 399.5px 0px 0px 25px;
     border-image: none 100% / 1 / 0 stretch;
@@ -1419,7 +1435,7 @@
     position: absolute;
     width: 0px;
     height: 0px;
-    border-color: #E3010F transparent transparent;
+    border-color: #1f488d transparent transparent;
     border-style: solid;
     border-width: 399.5px 0px 0px 25px;
     border-image: none 100% / 1 / 0 stretch;
@@ -1430,7 +1446,7 @@
 .sportsWrapper .indoorWrapper .yoga .text {
     width: 100%;
     max-width: 380px;
-    background-color: #E3010F;
+    background-color: #1f488d;
     padding: 40px 40px 40px 56px;
     box-sizing: border-box;
     position: absolute;
@@ -1503,7 +1519,7 @@
     width: 0px;
     height: 0px;
     right: -24px;
-    border-color: transparent transparent transparent #E3010F;
+    border-color: transparent transparent transparent #1f488d;
     border-style: solid;
     border-width: 3px 0px 387px 24px;
     border-image: none 100% / 1 / 0 stretch;
@@ -1514,7 +1530,7 @@
     position: absolute;
     width: 0px;
     height: 0px;
-    border-color: transparent transparent #E3010F;
+    border-color: transparent transparent #1f488d;
     border-style: solid;
     border-width: 0 380px 24px 0;
     border-image: none 100% / 1 / 0 stretch;
@@ -1556,7 +1572,7 @@
     position: absolute;
     width: 0px;
     height: 0px;
-    border-color: transparent transparent #E3010F;
+    border-color: transparent transparent #1f488d;
     border-style: solid;
     border-width: 0px 0px 24px 728px;
     border-image: none 100% / 1 / 0 stretch;
@@ -1569,7 +1585,7 @@
     position: absolute;
     width: 0px;
     height: 0px;
-    border-color: #E3010F transparent transparent;
+    border-color: #1f488d transparent transparent;
     border-style: solid;
     border-width: 16px 380px 0px 0px;
     border-image: none 100% / 1 / 0 stretch;
@@ -1610,7 +1626,7 @@
     position: absolute;
     width: 0px;
     height: 0px;
-    border-color: #E3010F transparent transparent;
+    border-color: #1f488d transparent transparent;
     border-style: solid;
     border-width: 399.5px 0px 0px 25px;
     border-image: none 100% / 1 / 0 stretch;
@@ -1650,8 +1666,12 @@
 
 .sportsWrapper .indoorWrapper .chess ul li h2 {
     text-align: left;
-    font: 400 56px "just_lovelyslanted", serif;
-    color: #E3010F;
+    /* font: 400 56px "just_lovelyslanted", serif; */
+    color: #1f488d;
+    font-size: 40px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 @media (max-width: 1024px) {
@@ -1691,7 +1711,7 @@
     padding: 24px 24px 40px 24px;
     box-sizing: border-box;
     position: relative;
-    background-color: #E3010F;
+    background-color: #1f488d;
     right: 32px;
 }
 
@@ -1806,7 +1826,7 @@
     height: 0px;
     right: 0px;
     bottom: -30px;
-    border-color: transparent transparent transparent #E3010F;
+    border-color: transparent transparent transparent #1f488d;
     border-style: solid;
     border-width: 0px 0 49px 250px;
     border-image: none 100% / 1 / 0 stretch;
@@ -1817,7 +1837,7 @@
     position: absolute;
     width: 0px;
     height: 0px;
-    border-color: transparent transparent #E3010F;
+    border-color: transparent transparent #1f488d;
     border-style: solid;
     border-width: 0 616px 21px 2px;
     border-image: none 100% / 1 / 0 stretch;
@@ -1843,7 +1863,7 @@
     position: absolute;
     width: 0px;
     height: 0px;
-    border-color: #E3010F transparent transparent;
+    border-color: #1f488d transparent transparent;
     border-style: solid;
     border-width: 372px 20px 0px 0;
     border-image: none 100% / 1 / 0 stretch;
@@ -1855,7 +1875,7 @@
     position: absolute;
     width: 0px;
     height: 0px;
-    border-color: #E3010F transparent transparent;
+    border-color: #1f488d transparent transparent;
     border-style: solid;
     border-width: 399.5px 0px 0px 25px;
     border-image: none 100% / 1 / 0 stretch;

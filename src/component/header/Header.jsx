@@ -48,7 +48,7 @@ const Header = () => {
             <dl className="admfollow">
               <dt>
                 <a href="#">
-                  Admissions are closed for session 2025-26 for all the grades
+                  Admissions are opened for session 2025-26 for all the grades
                 </a>
               </dt>
               <dt style={{ display: 'none' }}>
@@ -164,7 +164,7 @@ const Header = () => {
                   <li>
                     <dl>
                       <dt>
-                        <NavLink to="index" className="active">
+                        <NavLink to="/" className="active">
                           <small>Home</small>
                           <span className="topshape"></span>
                           <span className="rightshape"></span>
@@ -172,7 +172,7 @@ const Header = () => {
                         </NavLink>
                       </dt>
                       <dt>
-                        <NavLink to="messages">
+                        <NavLink to="/about">
                           <small>About us</small>
                           <span className="topshape"></span>
                           <span className="rightshape"></span>
@@ -180,7 +180,7 @@ const Header = () => {
                         </NavLink>
                       </dt>
                       <dt>
-                        <NavLink to="teachers_training">
+                        <NavLink to="our-educator">
                           <small>Our Educators</small>
                           <span className="topshape"></span>
                           <span className="rightshape"></span>
@@ -188,7 +188,7 @@ const Header = () => {
                         </NavLink>
                       </dt>
                       <dt>
-                        <NavLink to="sports">
+                        <NavLink to="/sport">
                           <small>Infrastructure</small>
                           <span className="topshape"></span>
                           <span className="rightshape"></span>
@@ -196,7 +196,7 @@ const Header = () => {
                         </NavLink>
                       </dt>
                       <dt>
-                        <NavLink to="life-at-montfort">
+                        <NavLink to="/life-at-montfort">
                           <small>Life at Montfort</small>
                           <span className="topshape"></span>
                           <span className="rightshape"></span>

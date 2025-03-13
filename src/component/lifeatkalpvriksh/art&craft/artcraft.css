@@ -1,0 +1,113 @@
+.lifeatWrapper .artcraft {
+    width: 100%;
+    display: grid;
+    grid-gap: 72px;
+    grid-template-columns: 640px auto;
+    align-items: center;
+    max-width: 1280px;
+    padding: 0 24px;
+    box-sizing: border-box;
+    margin: 72px auto 0 auto;
+}
+
+@media (max-width: 1280px) {
+    .lifeatWrapper .artcraft {
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .lifeatWrapper .artcraft {
+        max-width: 768px;
+        grid-template-columns: 420px auto;
+        grid-gap: 36px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lifeatWrapper .artcraft {
+        max-width: 560px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 24px;
+    }
+}
+
+@media (max-width: 560px) {
+    .lifeatWrapper .artcraft {
+        max-width: 420px;
+    }
+}
+
+@media (max-width: 420px) {
+    .lifeatWrapper .artcraft {
+        max-width: 340px;
+    }
+}
+
+.lifeatWrapper .artcraft li {
+    width: 100%;
+}
+
+.lifeatWrapper .artcraft li .photo {
+    width: 100%;
+}
+
+.lifeatWrapper .artcraft li .photo img {
+    display: block;
+    width: 100%;
+}
+
+.lifeatWrapper .artcraft li .photo .video {
+    display: block;
+    width: 100%;
+    position: relative;
+    aspect-ratio: 16 / 9;
+}
+
+.lifeatWrapper .artcraft li .photo .video video {
+    display: block;
+    width: 100%;
+}
+
+
+
+.lifeatWrapper .artcraft li h2 {
+    text-align: left;
+    /* font: 400 56px "just_lovelyslanted", serif; */
+    color: #1f488d;
+    font-size: 50PX;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+@media (max-width: 1024px) {
+    .lifeatWrapper .artcraft li h2 {
+        font-size: 40px;
+    }
+}
+
+.lifeatWrapper .artcraft li p {
+    text-align: left;
+    font: 400 15px "Circular Std Book", sans-serif;
+    color: #505050;
+    margin: 20px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+    .lifeatWrapper .artcraft li p {
+        font-size: 13px;
+    }
+}
+
+.lifeatWrapper .artcraft li p span {
+    font: 400 15px "Circular Std medium", sans-serif;
+    color: #000;
+}
+
+@media (max-width: 1024px) {
+    .lifeatWrapper .artcraft li p span {
+        font-size: 13px;
+    }
+}

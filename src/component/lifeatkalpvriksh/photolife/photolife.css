@@ -1,4 +1,4 @@
-.sportsWrapper {
+.lifeatWrapper {
     width: 100%;
     max-width: 1280px;
     padding: 0 24px;
@@ -6,25 +6,25 @@
     margin: 0 auto;
 }
 
-.sportsWrapper .sphoto {
+.lifeatWrapper .sphoto {
     width: 100%;
     position: relative;
 }
 
-.sportsWrapper .sphoto .video {
+.lifeatWrapper .sphoto .video {
     display: block;
     width: 100%;
     position: relative;
     aspect-ratio: 16 /9;
 }
 
-.sportsWrapper .sphoto .video video {
+.lifeatWrapper .sphoto .video video {
     display: block;
     width: 100%;
 }
 
 
-.sportsWrapper .sphoto .heading {
+.lifeatWrapper .sphoto .heading {
     background-color: transparent;
     padding: 25px;
     box-sizing: border-box;
@@ -37,28 +37,28 @@
 }
 
 @media (max-width: 1024px) {
-    .sportsWrapper .sphoto .heading {
+    .lifeatWrapper .sphoto .heading {
         max-width: 330px;
     }
 }
 
 @media (max-width: 768px) {
-    .sportsWrapper{
+    .lifeatWrapper{
         margin: 270px auto;
     }
-    .sportsWrapper .sphoto .heading {
+    .lifeatWrapper .sphoto .heading {
         max-width: 237px;
         bottom: -48px;
     }
 }
 
 @media (max-width: 560px) {
-    .sportsWrapper .sphoto .heading {
+    .lifeatWrapper .sphoto .heading {
         max-width: 192px;
     }
 }
 
-.sportsWrapper .sphoto .heading .rightshape {
+.lifeatWrapper .sphoto .heading .rightshape {
     position: absolute;
     width: 0px;
     height: 0px;
@@ -70,24 +70,24 @@
 }
 
 @media (max-width: 1024px) {
-    .sportsWrapper .sphoto .heading .rightshape {
+    .lifeatWrapper .sphoto .heading .rightshape {
         border-width: 56px 0px 0px 25px;
     }
 }
 
 @media (max-width: 768px) {
-    .sportsWrapper .sphoto .heading .rightshape {
+    .lifeatWrapper .sphoto .heading .rightshape {
         border-width: 40px 0px 0px 25px;
     }
 }
 
 @media (max-width: 560px) {
-    .sportsWrapper .sphoto .heading .rightshape {
+    .lifeatWrapper .sphoto .heading .rightshape {
         border-width: 32px 0px 0px 25px;
     }
 }
 
-.sportsWrapper .sphoto .heading .topshape {
+.lifeatWrapper .sphoto .heading .topshape {
     position: absolute;
     width: 0px;
     height: 0px;
@@ -100,24 +100,24 @@
 }
 
 @media (max-width: 1024px) {
-    .sportsWrapper .sphoto .heading .topshape {
+    .lifeatWrapper .sphoto .heading .topshape {
         border-width: 24px 0px 57px 25px;
     }
 }
 
 @media (max-width: 768px) {
-    .sportsWrapper .sphoto .heading .topshape {
+    .lifeatWrapper .sphoto .heading .topshape {
         border-width: 24px 0px 41px 25px;
     }
 }
 
 @media (max-width: 560px) {
-    .sportsWrapper .sphoto .heading .topshape {
+    .lifeatWrapper .sphoto .heading .topshape {
         border-width: 24px 0px 33px 25px;
     }
 }
 
-.sportsWrapper .sphoto .heading .bottomshape {
+.lifeatWrapper .sphoto .heading .bottomshape {
     position: absolute;
     width: 0px;
     height: 0px;
@@ -130,7 +130,7 @@
     transform: rotate(-4deg);
 }
 
-.sportsWrapper .sphoto .heading .leftshape {
+.lifeatWrapper .sphoto .heading .leftshape {
     position: absolute;
     width: 0px;
     height: 0px;
@@ -142,7 +142,7 @@
     left: 1px;
 }
 
-.sportsWrapper .sphoto .heading .leftshape1 {
+.lifeatWrapper .sphoto .heading .leftshape1 {
     position: absolute;
     width: 0px;
     height: 0px;
@@ -154,7 +154,7 @@
     left: 1px;
 }
 
-.sportsWrapper .sphoto .heading b {
+.lifeatWrapper .sphoto .heading b {
     background-color: #1f488d;
     display: block;
     width: 100%;
@@ -168,19 +168,19 @@
 }
 
 @media (max-width: 1024px) {
-    .sportsWrapper .sphoto .heading b {
+    .lifeatWrapper .sphoto .heading b {
         font: 400 56px/56px "just_lovelyslanted", serif;
     }
 }
 
 @media (max-width: 768px) {
-    .sportsWrapper .sphoto .heading b {
+    .lifeatWrapper .sphoto .heading b {
         font: 400 40px/40px "just_lovelyslanted", serif;
     }
 }
 
 @media (max-width: 560px) {
-    .sportsWrapper .sphoto .heading b {
+    .lifeatWrapper .sphoto .heading b {
         font: 400 32px/32px "just_lovelyslanted", serif;
     }
 }

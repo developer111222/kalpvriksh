@@ -1,0 +1,113 @@
+.lifeatWrapper .photography {
+    width: 100%;
+    display: grid;
+    grid-gap: 72px;
+    grid-template-columns: auto 640px;
+    align-items: center;
+    max-width: 1280px;
+    padding: 0 24px;
+    box-sizing: border-box;
+    margin: 72px auto 0 auto;
+}
+
+@media (max-width: 1280px) {
+    .lifeatWrapper .photography {
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .lifeatWrapper .photography {
+        max-width: 768px;
+        grid-template-columns: auto 420px;
+        grid-gap: 36px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lifeatWrapper .photography {
+        max-width: 560px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 24px;
+    }
+}
+
+@media (max-width: 560px) {
+    .lifeatWrapper .photography {
+        max-width: 420px;
+    }
+}
+
+@media (max-width: 420px) {
+    .lifeatWrapper .photography {
+        max-width: 340px;
+    }
+}
+
+.lifeatWrapper .photography li {
+    width: 100%;
+}
+
+.lifeatWrapper .photography li .photo {
+    width: 100%;
+}
+
+.lifeatWrapper .photography li .photo img {
+    display: block;
+    width: 100%;
+}
+
+.lifeatWrapper .photography li .photo .video {
+    display: block;
+    width: 100%;
+    position: relative;
+    aspect-ratio: 16 / 9;
+}
+
+.lifeatWrapper .photography li .photo .video video {
+    display: block;
+    width: 100%;
+}
+
+
+
+.lifeatWrapper .photography li h2 {
+    text-align: left;
+    /* font: 400 56px "just_lovelyslanted", serif; */
+    color: #1f488d;
+    font-size: 50px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+@media (max-width: 1024px) {
+    .lifeatWrapper .photography li h2 {
+        font-size: 40px;
+    }
+}
+
+.lifeatWrapper .photography li p {
+    text-align: left;
+    font: 400 15px "Circular Std Book", sans-serif;
+    color: #505050;
+    margin: 20px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+    .lifeatWrapper .photography li p {
+        font-size: 13px;
+    }
+}
+
+.lifeatWrapper .photography li p span {
+    font: 400 15px "Circular Std medium", sans-serif;
+    color: #000;
+}
+
+@media (max-width: 1024px) {
+    .lifeatWrapper .photography li p span {
+        font-size: 13px;
+    }
+}

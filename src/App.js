@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AboutPage from './component/about/AboutPage';
 import OurEducator from './component/oureducator/OurEducator';
 import Sport from './component/sport/Sport';
+import LifeAtKalpvriksh from './component/lifeatkalpvriksh/LifeAtKalpvriksh';
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path='our-educator' element={<OurEducator/>} />
-          <Route path='sport' element={<Sport/>} />
+          <Route path='/our-educator' element={<OurEducator/>} />
+          <Route path='/sport' element={<Sport/>} />
+          <Route path='/life-at-montfort' element={<LifeAtKalpvriksh/>} />
         </Routes>
         <Footer /> {/* Footer will also have access to routing context */}
       </div>
