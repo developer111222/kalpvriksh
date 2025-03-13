@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { use, useEffect, useState } from 'react';
 import './header.css'
 import { NavLink } from 'react-router-dom';
 
@@ -22,9 +22,38 @@ const Header = () => {
           closeButton.removeEventListener('click', toggleOverlay);
         };
       }, []);
+      const [isVisible, setIsVisible] = useState(false);
+
+      // Function to scroll to the top
+      const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth',
+        });
+      };
+    
+      // Check if the user has scrolled down and show/hide the button
+      const handleScroll = () => {
+        if (window.scrollY > 200) {
+          setIsVisible(true);
+        } else {
+          setIsVisible(false);
+        }
+      };
+    
+      // Add event listener for scrolling when the component mounts
+      useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        
+        // Clean up the event listener when the component unmounts
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+      }, []);
 
 
   return (
+    <>
     <div className="header">
     <div className="header_top sticky_header" id="header">
       <div className="logo">
@@ -164,7 +193,7 @@ const Header = () => {
                   <li>
                     <dl>
                       <dt>
-                        <NavLink to="/" className="active">
+                        <NavLink to="/" className="">
                           <small>Home</small>
                           <span className="topshape"></span>
                           <span className="rightshape"></span>
@@ -189,7 +218,7 @@ const Header = () => {
                       </dt>
                       <dt>
                         <NavLink to="/sport">
-                          <small>Infrastructure</small>
+                          <small>Sports</small>
                           <span className="topshape"></span>
                           <span className="rightshape"></span>
                           <span className="bottomshape"></span>
@@ -229,6 +258,16 @@ const Header = () => {
       </div>
     </div>
   </div>
+ <a
+      href="#"
+      className={`scrollToTop ${isVisible ? 'show' : ''}`}  // Dynamically add 'show' class for visibility
+      onClick={(e) => {
+        e.preventDefault();
+        scrollToTop();
+      }}
+    ></a>
+  </>
+
   )
 }
 

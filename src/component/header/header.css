@@ -275,6 +275,7 @@
     @media (max-width: 560px) {
         .header .header_top header ul li .admfollow dt a {
             margin: 0 0 4px 0;
+            font-size: 10px;
         }
     }
 
@@ -1211,3 +1212,27 @@
         -webkit-transition: -webkit-transform 0.4s ease-in-out;
         transition: transform 0.4s ease-in-out;
     }
+
+
+
+    .scrollToTop {
+        width: 48px;
+        height: 48px;
+        text-align: center;
+        color: #fff;
+        background: url('/public/img/scrolltop.svg') no-repeat center #FDCC4B;
+        background-size: 24px;
+        text-decoration: none;
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+        display: none;
+        border-radius: 50%;
+        overflow: hidden;
+        z-index: 9999; }
+
+        .scrollToTop.show {
+            display: block; /* This will show the button when the 'show' class is added */
+          }
+
+
