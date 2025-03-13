@@ -5,11 +5,11 @@ import ChairmanMsg from './chairman/ChairmanMsg'
 
 const AboutPage = () => {
   return (
-<>
+<div className='messagesWrapp'>
 <DrivenValue/>
 <DirectorMsg/>
 <ChairmanMsg/>
-</>    
+</div>   
 
   )
 }

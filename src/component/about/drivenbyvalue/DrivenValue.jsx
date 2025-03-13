@@ -2,7 +2,7 @@ import React from 'react'
 import './drivenvalue.css'
 const DrivenValue = () => {
     return (
-        <div class="messagesWrapp">
+        <div class="">
             <h1>Kalpvriksh-Driven by Values </h1>
             <h2>Kalpvriksh is driven by values and a commitment for excellence.</h2>
 
