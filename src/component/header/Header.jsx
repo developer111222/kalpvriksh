@@ -77,7 +77,7 @@ const Header = () => {
             <dl className="admfollow">
               <dt>
                 <a href="#">
-                  Admissions are opened for session 2025-26 for all the grades
+                  Admissions are opened for session 2025-26
                 </a>
               </dt>
               <dt style={{ display: 'none' }}>
