@@ -70,9 +70,7 @@ const OutdoorStep = () => {
                             <div class="video">
                                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/M8srcXEkgG0?rel=0&amp;controls=0" frameborder="0" allow=""></iframe>
                                 
-                                <div class="btns">
-                                    <button type="button" id="play_sporta" class="playsport">Play</button>
-                                </div>
+                               
                             </div>
                             <div class="photos">
                                 <ul>
@@ -103,9 +101,7 @@ const OutdoorStep = () => {
                     <div class="video">
                         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/PFoshwpgZxU?rel=0&amp;controls=0" frameborder="0" allow=""></iframe>
                         
-                        <div class="btns">
-                            <button type="button" id="play_sportb" class="playsport">Play</button>
-                        </div>
+                      
                     </div>
                     <div class="photos">
                         <ul>
@@ -162,9 +158,7 @@ const OutdoorStep = () => {
                             <div class="video">
                                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/g3Z64wRrHzo?rel=0&amp;controls=0" frameborder="0"></iframe>
                                 
-                                <div class="btns">
-                                    <button type="button" id="play_sportc" class="playsport">Play</button>
-                                </div>
+                               
                             </div>
                             <div class="photos">
                                 <ul>
@@ -195,9 +189,7 @@ const OutdoorStep = () => {
                     <div class="video">
                         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/w9A5YeVKXd8?rel=0&amp;controls=0" frameborder="0" allow=""></iframe>
                        
-                        <div class="btns">
-                            <button type="button" id="play_sportd" class="playsport">Play</button>
-                        </div>
+                       
                     </div>
                     
                     <div class="photos">

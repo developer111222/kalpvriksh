@@ -6,50 +6,7 @@ const IndoorStep = () => {
     <div class="indoorWrapper">
     <h1>Indoor Sports Complex</h1>
 
-    <div class="pool">
-        <div class="photo">
-            <div class="video">
-                <img src="images/pool-table.png" alt="" />
-              
-             
-            </div>
-            <div class="photos">
-                <ul>
-                    <li>
-                        <a href="images/photo-gallery/photoGal-1.png"  data-thumbnail="images/photo-gallery/photoGal-1.png" data-fullscreenmode="true" data-transition="slide" class="html5lightbox" data-group="set3" data-width="600" data-height="400" data-title="">
-                            <img src="images/photo-gallery/photoGal-1.png" alt="" />					
-                        </a>
-                    </li>
-                    <li>
-                        <a href="images/photo-gallery/photoGal-2.png"  data-thumbnail="images/photo-gallery/photoGal-2.png" data-fullscreenmode="true" data-transition="slide" class="html5lightbox" data-group="set3" data-width="600" data-height="400" data-title="">
-                            <img src="images/photo-gallery/photoGal-2.png" alt="" />					
-                        </a>
-                    </li>
-                    <li>
-                        <a href="images/photo-gallery/photoGal-3.png"  data-thumbnail="images/photo-gallery/photoGal-3.png" data-fullscreenmode="true" data-transition="slide" class="html5lightbox" data-group="set3" data-width="600" data-height="400" data-title="">
-                            <img src="images/photo-gallery/photoGal-3.png" alt="" />					
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="text">
-            <span class="topshape"></span>
-            <span class="rightshape"></span>
-            <span class="leftshape"></span>
-            <div class="inText">
-                <h2>Pool </h2>
-                <p>The future success of the game of lies
-                    in the ability to introduce as many young
-                    people to the game as is possible. 
-                    Everyone who loves the game remembers 
-                    getting hooked the first time they potted a
-                    ball. MWS has experienced and qualified 
-                    coach who undertakes full training on how
-                    to play pool professionally.</p>
-            </div>
-        </div>
-    </div>
+   
 
     <div class="taekwondo">
         <ul>
@@ -89,22 +46,23 @@ const IndoorStep = () => {
     <div class="boxing">
         <div class="photo">
             <div class="video">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/nZw_-Po-QLw?rel=0&amp;controls=0" frameborder="0" allow=""></iframe>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/nZw_-Po-QLw?rel=0&amp;controls=0" frameborder="0" allow="" />
+                
             </div>
             <div class="photos">
                 <ul>
                     <li>
-                        <a href="images/photo-gallery/boxing-1.jpg" data-thumbnail="images/photo-gallery/boxing-1.jpg" data-fullscreenmode="true" data-transition="slide" class="html5lightbox" data-group="boxing" data-width="600" data-height="400" data-title="">
+                        <a >
                             <img src="images/photo-gallery/boxing-1.jpg" alt="" />					
                         </a>
                     </li>
                     <li>
-                        <a href="images/photo-gallery/boxing-2.jpg" data-thumbnail="images/photo-gallery/boxing-2.jpg" data-fullscreenmode="true" data-transition="slide" class="html5lightbox" data-group="boxing" data-width="600" data-height="400" data-title="">
+                        <a >
                             <img src="images/photo-gallery/boxing-2.jpg" alt="" />					
                         </a>
                     </li>
                     <li>
-                        <a href="images/photo-gallery/boxing-3.jpg" data-thumbnail="images/photo-gallery/boxing-3.jpg" data-fullscreenmode="true" data-transition="slide" class="html5lightbox" data-group="boxing" data-width="600" data-height="400" data-title="">
+                        <a >
                             <img src="images/photo-gallery/boxing-3.jpg" alt="" />					
                         </a>
                     </li>

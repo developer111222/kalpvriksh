@@ -330,10 +330,11 @@
 
 .teachersWrapper .learners ul li h2 span {
     text-align: left;
-    font: 400 56px/56px "just_lovelyslanted", serif;
+    /* font: 400 56px/56px "just_lovelyslanted", serif; */
     color: #1f488d;
     text-transform: none;
     margin: 0 0 0 8px;
+    font-size: 50px;
 }
 
 @media (max-width: 420px) {

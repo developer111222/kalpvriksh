@@ -1,5 +1,6 @@
 import React from 'react';
 import './footer.css'
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -24,13 +25,13 @@ const Footer = () => {
                 </a>
             </div>
             <div class="links">
-                <a href="">Home</a>
-                <a href="">About us</a>
-                <a href="">Our Educators</a>
-                <a href="">Infrastructure</a>
-                <a href="">Life at Montfort</a>
-                <a href="/">Montfort School App</a>
-                <a href="">CBSE Corner</a>
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="/about">About us</NavLink>
+                <NavLink to="our-educator">Our Educators</NavLink>
+                <NavLink to="/sport">Sports</NavLink>
+                <NavLink to="/life-at-kalpvriksh">Life at Kalpvriksh</NavLink>
+                <NavLink to="/">Montfort School App</NavLink>
+                <NavLink to="">CBSE Corner</NavLink>
             </div>
         </li>
     </ul>
