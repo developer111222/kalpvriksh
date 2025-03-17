@@ -56,9 +56,9 @@ const Header = () => {
     <>
     <div className="header">
     <div className="header_top sticky_header" id="header">
-      <div className="logo">
-        <img src="/img/kvp-logo.png" alt="" />
-      </div>
+    <NavLink to="/">  <div className="logo">
+      <img src="/img/kvp-logo.png" alt="" />
+      </div></NavLink>
       <header>
         <ul>
           <li>
@@ -178,9 +178,9 @@ const Header = () => {
         </ul>
       </div>
       <div className="mobilenav">
-        <div className="mlogo">
+      <NavLink to="/">  <div className="mlogo">
           <img src="/img/kvp-logo.png" alt="" />
-        </div>
+        </div></NavLink>
         <div className="morebtn">
           <button id="trigger-overlay" type="button"></button>
           <div className="overlay overlay-slidedown">
