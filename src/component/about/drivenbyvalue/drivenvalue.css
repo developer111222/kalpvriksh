@@ -152,3 +152,15 @@
 }
 
     
+.code{
+    margin: 20px 0;
+}
+.code h3{
+    color: #1f488d;
+    font-size: 30px;
+    padding: 10px   ;
+}
+.code p{
+  
+    font-size: 15px
+}

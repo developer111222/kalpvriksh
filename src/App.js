@@ -9,6 +9,7 @@ import OurEducator from './component/oureducator/OurEducator';
 import Sport from './component/sport/Sport';
 import LifeAtKalpvriksh from './component/lifeatkalpvriksh/LifeAtKalpvriksh';
 import { useEffect } from 'react';
+import OurCampus from './component/our-campus/OurCampus';
 
 function App() {
   return (
@@ -34,7 +35,8 @@ function AppContent() {
         <Route path="/our-educator" element={<OurEducator />} />
         <Route path="/sport" element={<Sport />
         } />
-        {/* <Route path="/life-at-kalpvriksh" element={<LifeAtKalpvriksh />} /> */}
+        <Route path="/life-at-kalpvriksh" element={<LifeAtKalpvriksh />} />
+        <Route path='/our-campus' element={<OurCampus/>} />
       </Routes>
       <Footer />
     </div>

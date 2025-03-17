@@ -11,13 +11,14 @@ const About = () => {
             <span class="topshape"></span>
             <span class="leftshape"></span>
             <div class="text">
-                <h2>About Kalpvriksh</h2>
-                <p>For us equality matters. Each and every student is entitled to the attention which he individually requires and deserves. These specially trained faculty members equipped with the most technologically advanced classrooms and digital libraries have the caliber to cater to the needs of all the students jointly and severally.
+                <h2>About Kalpvriksh School</h2>
+                <p>  
+                Welcome to *Kalpvriksh School*, a premier CBSE institution dedicated to nurturing young minds beyond academics. We recognize that intelligence extends beyond grades, and we celebrate the uniqueness of every student. 
                 </p>    
                     
-                <p>Growing minds, sparking curiosity, and painting the canvas of knowledge – where every question is a brushstroke and every child an artist in the masterpiece of learning.
+                <p>With a strong educational legacy, Kalpvriksh School is committed to creating a nurturing environment where children can thrive. Our approach goes beyond conventional learning, encouraging students to explore, innovate, and grow into well-rounded individuals.
                 </p>    
-                <p>We, at Kalp Vriksh, are dedicated to achieve excellence through a confluence of traditional teaching values and technological advancement in teaching methods. With our highly experienced faculty, specially trained to act in consonance with the psychology and individual needs of the students, we are able to cater to the individual needs of each and every students.
+                <p>At Kalpvriksh, we focus on holistic development, encompassing academics, physical well-being, emotional intelligence, and ethical values. Our goal is to shape confident, compassionate, and responsible individuals who are ready to take on the world
                 </p>    
             </div>
         </div>

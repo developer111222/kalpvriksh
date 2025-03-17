@@ -4,17 +4,12 @@ const Photography = () => {
   return (
     <ul class="photography">            
     <li>
-        <h2>Photography &amp; calligraphy</h2>
-        <p><span>Photography</span> students learn various photography techniques, such 
-            as videography and still photography. The club has consistently 
-            honed the skills of students to the extent that all school events, 
-            including Mock United Nations and Parliamentary Debate 
-            Competitions, are covered by members of the club. Further, the 
-            students shoot the opening films, which include rushes and time 
-            lapses, that are showcased at each event. In the high school, 
-            presentations for each weekly assembly are prepared from start to 
-            finish by students. The Calligraphy club trains students in the art of 
-            penmanship which can be a delicate art form.</p>
+        <h2>Lens & Letters Collective  </h2>
+        <p><b>Photography:</b> Master drone cinematography, heritage documentation (e.g., stepwells), and Instagram storytelling. The <b>FrameWala</b> club’s time-lapse video of the monsoon over Jaipur won National Geographic’s Young Explorers Award.  </p>
+        <p>
+<b>
+    Calligraphy:</b> From Devanagari brushwork to Arabic khattati, guided by Ustaad artists. The campus hosts India’s first student-curated Calligraphy Museum, featuring palm-leaf manuscripts to 3D-typed Sanskrit.  
+</p>
     </li>
     <li>
         <div class="photo">

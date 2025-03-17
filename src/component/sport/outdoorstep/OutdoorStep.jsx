@@ -4,16 +4,14 @@ import './outdoor.css'
 const OutdoorStep = () => {
   return (
 <div class="outdoorWrapper">
-            <h1>Outdoor Sports Complex</h1>
+            <h1>Outdoor Sports Galaxy </h1>
 
             <div class="swimingpool">
                 <div class="photo">
                     <div class="video">
                         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/yb58wnaBazM?rel=0&amp;controls=0" frameborder="0" allow=""></iframe>
                        
-                        <div class="btns">
-                            <button type="button" id="play_sport" class="playsport">Play</button>
-                        </div>
+                       
                     </div>
                     <div class="photos">
                         <ul>
@@ -40,15 +38,11 @@ const OutdoorStep = () => {
                     <span class="rightshape"></span>
                     <span class="leftshape"></span>
                     <div class="inText">
-                        <h2>Swimming Pool </h2>
-                        <p>MWS provides top class training venue ‘AQUA’ for
-                            swimmers to realize their potential to the fullest.
-                            The ‘AQUA’, state-of-heart aquatic complex 
-                            comprises a 82×42 ft course swimming pool with 
-                            water facilities enabling it to host any national 
-                            swimming competition. A more than 40 award 
-                            winners passed from the same pool on state and 
-                            national level.</p>
+                        <h2>JalVihar – The Liquid Classroom </h2>
+                        <p>India’s first solar-heated, self-cleaning pool (25m Olympic specs) with underwater VR laps.  </p>
+                        <p>
+Trained 32 National medalists; hosts Rajasthan’s only student-designed aqua obstacle courses. 
+</p>
                     </div>
                 </div>
             </div>
@@ -56,14 +50,11 @@ const OutdoorStep = () => {
             <div class="horseRiding">
                 <ul>
                     <li>
-                        <h2>Horse Riding </h2>
-                        <p><span>We enthusiastically volunteer our time to 
-                            introduce and develop riding skills for 
-                            riders at all levels.</span> We offer riding classes 
-                            for beginners, pony rides for kids from the 
-                            age of 3 onwards, and train our more 
-                            committed riders to compete in various 
-                            national and international competitions.</p>
+                        <h2>Desert Dashers Skating Arena </h2>
+                        <p> Glass-floored rink powered by kinetic energy from skater movements.  </p>
+                        <p>
+The curriculum blends roller derby physics with Thar desert navigation skills.  
+</p>
                     </li>
                     <li>
                         <div class="photo">
@@ -129,16 +120,11 @@ const OutdoorStep = () => {
                     <span class="leftshape"></span>
                     <span class="bottomshape"></span>
                     <div class="inText">
-                        <h2>Skating</h2>
-                        <p>MWS has an skating in the school programme
-                            which teaches skating skills to the students. 
-                            This programme is developed to serve the 
-                            specific educational and conservation purposes. 
-                            It is designed for 4th-12th graders, the 
-                            programme covers safety, 
-                            techniques, equipment’s, mental concentration 
-                            and self-improvement. skating sessions are 
-                            delivered by a qualified coach.</p>
+                        <h2> Dribble Dharma Basketball Court</h2>
+                        <p>Smart court with pressure-sensitive zones that coach footwork via hologram gurus.  </p>
+                        <p>
+Night matches under constellation-projecting LED canopy. 
+</p>
                     </div>
                 </div>
             </div>
@@ -146,12 +132,10 @@ const OutdoorStep = () => {
             <div class="basketball">
                 <ul>
                     <li>
-                        <h2>Basket Ball </h2>
-                        <p><span>Basketball is highly popular game. </span>
-                            To encourage our students’ interest
-                            Montfort World School has built to
-                            perfection, basketball court with
-                            exclusive lighting facilities.</p>
+                        <h2>Racket Renaissance Tennis Hub</h2>
+                        <p>Hybrid surfaces (clay/grass/hard) adapting to international tournament standards.  </p>
+<p> AI ball machines that mimic Nadal’s topspin or Djokovic’s precision. 
+</p>
                     </li>
                     <li>
                         <div class="photo">
@@ -216,22 +200,13 @@ const OutdoorStep = () => {
                     <span class="topshape"></span>
                     <span class="leftshape"></span>
                     <div class="inText">
-                        <h2>Tennis </h2>
-                        <p><span>Tennis is fun, great for fitness and for developing 
-                            hand eye co-ordination.</span> It can be played by all
-                            ages and abilities – boys and girls can play 
-                            together, so it is ideal for mixed classes. </p>
-                            
-                        <p>MWS gives most children their first experience 
-                            of sport and their early experience can often 
-                            determine whether they stay in the game. 
-                            MWS is equipped with hard tennis court 
-                            following all international regulations.</p>
+                        <h2>SpikeSphere Volleyball   </h2>
+                        <p>Sand courts with monsoon simulation modes; wearable tech measuring spike velocity.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="volleyball">
+            {/* <div class="volleyball">
                 <ul>
                     <li>
                         <h2>Volleyball</h2>
@@ -277,7 +252,7 @@ const OutdoorStep = () => {
                         </div>
                     </li>
                 </ul>
-            </div>
+            </div> */}
         </div>
   )
 }

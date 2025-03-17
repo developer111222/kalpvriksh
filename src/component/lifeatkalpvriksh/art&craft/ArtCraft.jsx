@@ -13,14 +13,9 @@ const ArtCraft = () => {
                 </div>
             </li>
             <li>
-                <h2>Art &amp; craft</h2>
-                <p><span>Like music, art is deeply embedded in the school curriculum.</span> Students 
-                    are strongly encouraged to experiment with a variety of mediums to 
-                    express themselves freely. While freedom is endorsed, it is supported 
-                    with well-structured and supervised, curriculum and guidance. The Art 
-                    and Craft club is an extension of this ethos and manifests itself through 
-                    the regular art exhibitions that are held to commemorate diversity in 
-                    culture, thought and spirit.</p>
+                <h2>Art & Craft Universe  </h2>
+                <p>Students explore blue pottery, block printing, and recycled art installations in open-air <b>Shilpagram</b> studios. The <b>Waste-to-Wonder</b> initiative turns plastic waste into murals, while VR tools let them digitally restore Ajanta frescoes. Annual exhibitions partner with the Jaipur Art Summit, auctioning student work to fund rural art schools.    </p>
+                
             </li>
         </ul>
   )

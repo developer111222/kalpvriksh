@@ -5,14 +5,14 @@ const AsTeacher = () => {
     return (
         <>
             <div class="asteachers">
-                <ul>
+                {/* <ul>
                     <li>
-                        <h2>TEACHERS AS <span>Teachers</span></h2>
-                        <p> <span>Our well trained and experienced
-                            faculty hold advanced university
-                            degrees.</span> Ongoing professional
-                            development is a feature of
-                            Montfort World School.</p>
+                        <h2>Teachers as  <span>Growth Architects</span></h2>
+                        <p> Kalpvriksh classrooms are `living labs. ’ Educators employ:
+                            Neuro-Flex Zones: Spaces where kinesthetic learners code robots while introverts debate via AR avatars.
+                            Dharma Circles: Peer-teaching sessions where students lead lessons on topics like water conservation using ancestral *johad* techniques.
+                            Failure Festivals: Quarterly events celebrating “glorious mistakes”, analyzed via emotion-sensing wristbands.
+                        </p>
                     </li>
                     <li>
                         <div class="photo">
@@ -23,50 +23,43 @@ const AsTeacher = () => {
                         <span class="topshape"></span>
                         <span class="leftshape"></span>
                     </li>
-                </ul>
+                </ul> */}
             </div>
 
             <ul class="workshops">
                 <li>
-                    <h2>Regular workshops are organised on a plethora of subjects and
-                        themes like:</h2>
+                    <h2>Professional Odyssey – Workshops & Certifications</h2>
 
                     <ol>
-                        <li><p>Key issues</p></li>
-                        <li><p>Mindfulness</p></li>
-                        <li><p>Health and wellbeing</p></li>
-                        <li><p>Financial education workshop</p></li>
-                        <li><p>First aid, fire and safety</p></li>
-                        <li><p>Cyber crime,</p></li>
-                        <li><p>British Council workshops</p></li>
-                        <li><p>Proactive classroom management</p></li>
-                        <li><p>Fostering positive and constructive relationships with students and parents</p></li>
-                        <li><p>Establishing routines and practices</p></li>
-                        <li><p>Collaborative learning</p></li>
-                        <li><p>Evaluation strategies and methods</p></li>
-                        <li><p>Creating a stimulating class environment </p></li>
-                        <li><p>Setting realistic expectations and working towards achieving them</p></li>
-                        <li><p>Differentiated teaching</p></li>
-                        <li><p>Lesson planning and innovative teaching practices</p></li>
-                        <li><p>Emotional intelligence</p></li>
-                        <li><p>Psychodrama</p></li>
-                        <li><p>Effective storytelling </p></li>
+                        <h3>Global Collaborations:</h3>
+                        <li><p><b>Adobe Creative Pedagogy:</b> Transform history lessons into graphic novels.</p></li>
+
+                        <li><p><b>MIT Playful Learning Lab:</b> Gamify quantum physics.  </p></li>
+                        <li><p><b>Kyoto Mindfulness Institute:</b> Zen techniques for digital detox</p></li>
+
+                    </ol>
+                    <ol>
+                        <h3>Core Modules: </h3>
+                        <li><p><b>AI-Driven Differentiation:</b> Personalize Sanskrit grammar apps for dyslexic learners. </p></li>
+
+                        <li><p><b>Crisis to Creation:</b>Turn bullying incidents into theater scripts.  </p></li>
+                        <li><p><b>Eco-Arithmetic:</b>Calculate carbon footprints of school events. </p></li>
                     </ol>
                 </li>
                 <li>
-                    <h2>Micro teaching workshops on the following methods:</h2>
+                    <h2>Micro-Teaching Innovations:</h2>
                     <ol>
-                        <li><p>Socratic seminars</p></li>
-                        <li><p> Philosophical chairs </p></li>
-                        <li><p> Discussions and debates</p></li>
-                        <li><p>Outdoor learning</p></li>
-                        <li><p>Hands on, experiential</p></li>
-                        <li><p>Brainstorming and affinity mapping</p></li>
-                        <li><p>Worksheet </p></li>
-                        <li><p>Lecture </p></li>
-                        <li><p>Textbook Interactive board </p></li>
-                        <li><p>Collaborative </p></li>
-                        <li><p>Jig saw</p></li>
+                        <li><p><b>PechaKucha Storylooms:</b>20-slide storytelling on Rajasthani loom patterns.</p></li>
+
+                        <li><p><b>Augmented Reality Shastrarth:</b>Debate climate policy with holograms of Gandhi and Greta. </p></li>
+                        <li><p><b>Bio-Mimicry Labs:</b>Teach geometry through termite mound structures.   </p></li>
+                    </ol>
+                    <ol>
+                        <h3>The Kalpvriksh Educator Code: </h3>
+                        <li><p><b>Roots & Wings:</b> Balance Rajasthan’s oral storytelling traditions with SpaceX simulation software.</p></li>
+
+                        <li><p><b>Assessment as Art:</b>Replace report cards with AI-generated growth mandalas.    </p></li>
+                        <li><p><b>No Child Unseen:</b>Use emotion-recognition AI to identify silent strugglers. </p></li>
                     </ol>
                 </li>
             </ul>

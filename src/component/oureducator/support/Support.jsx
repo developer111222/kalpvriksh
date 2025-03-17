@@ -13,21 +13,16 @@ const Support = () => {
             </div>
         </li>
         <li>
-            <h2>TEACHERS AS SUPPORT <span>System</span></h2>
-            <p>A student-centered model accepts that students have different 
-                learning styles and absorb information at different levels. They are 
-                open and receptive to various styles of learning, whether in groups 
-                or individually.</p>
-            <p>Educators at SFHS take on the role of a guide or facilitator for 
-                students’ learning experiences. They support, encourage, provide 
-                feedback, answer questions, ask questions, give suggestions, and 
-                pose challenges.</p>
-            <p>The Strawberry Fields High School has established an environment 
-                that encourages real learning, nurtures creativity and discovery, and 
-                celebrates different world-views. It has educators who facilitate 
-                meaningful learning and tap into each child’s abilities, shaping 
-                qualities and character to make them responsible and 
-                compassionate.</p>
+            <h2>Teachers as  <span>Growth Architects</span></h2>
+            <p><b>Educators employ: </b>Kalpvriksh classrooms are `living labs. </p>
+            <p>
+<b>Neuro-Flex Zones:</b> Spaces where kinesthetic learners code robots while introverts debate via AR avatars.  </p>
+<p>
+<b>Dharma Circles:</b> Peer-teaching sessions where students lead lessons on topics like water conservation using ancestral *johad* techniques.  </p>
+<p>
+<b>Failure Festivals:</b> Quarterly events celebrating “glorious mistakes”, analyzed via emotion-sensing wristbands.  
+</p>
+           
         </li>
     </ul>
     <span class="bottomshape"></span>

@@ -5,18 +5,13 @@ const Clubs = () => {
   return (
     <ul class="photography">            
     <li>
-        <h2>Clubs</h2>
-        <p><span>Mock United Nations and Parliamentary Debate Competitions were 
-            initiated as a formal society at Montfort World School in 2012.</span> Today the MUN and
-            PDC club has the largest pool of student enrolments. Each year- a 
-            new set of eager debating enthusiasts join this globally platform. 
-            Office bearers to the Montfort World School MUN Secretariat and Organising 
-            Committee are elected through a transparent and democratic 
-            process. The annual Montfort World School MUN and PDC has participation from 
-            leading schools across the country and offers participants a unique 
-            experience that encompasses panel discussions, concerts featuring 
-            world renowned artists and an opportunity to meet with prominent 
-            leaders.</p>
+        <h2>Clubs – Igniting Passions</h2>
+        <p><b>Global Youth Parliament:</b> A sustainability-focused Model UN hybrid, where students draft policies for UNESCO-recognized heritage sites. Partnered with Berlin’s Climate Innovators School for virtual summits.  </p>
+        <p>
+<b>Startup Gurukul:</b> Incubator club mentoring teen entrepreneurs. Recent project: An AI app to translate Marwari folktales into sign language.  </p>
+<p>
+<b>Cosmic Explorers:</b> Astro-photography, drone mapping of Aravalli biodiversity, and stargazing nights with IIA astronomers.  
+</p>
     </li>
     <li>
         <div class="photo">

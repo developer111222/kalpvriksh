@@ -6,7 +6,7 @@ const StaffImg = () => {
     <div class="heading">
         <span class="topshape"></span>
         <span class="rightshape"></span>
-        <b>Our Educators</b>
+        <b>Evolving Education, Empowering Educators  </b>
     </div>
 </div>
   )

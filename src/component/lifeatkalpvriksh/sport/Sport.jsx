@@ -15,13 +15,8 @@ const Sport = () => {
             </li>
             <li>
                 <h2>Sports</h2>
-                <p><span>Montfort World School is equipped with a swimming pool, football field, tennis court, 
-                    cricket ground and basketball court.</span> Apart from these there are many 
-                    sporting facilities for junior students. There is regular enrollment for 
-                    different sports classes through the year with students opting to choose 
-                    and play a sport of their choice in the after hours.</p>
-                <p>Regular intra-school competitions are held on campus to encourage 
-                    participation and healthy competition.</p>
+                <p>Kalpvriksh’s Olympic-inspired sports complex includes a solar-heated pool, FIFA-standard football turf, and Rajasthan’s first school-based archery range. For juniors: mini-athletics tracks, zen yoga decks, and Mitti Gym (traditional clay obstacle courses). After-school leagues in kho-kho, chess, and e-sports foster teamwork, while our **Desert Marathon** trains students to run 5K on eco-trails.  
+                .</p>
             </li>
         </ul>
   )

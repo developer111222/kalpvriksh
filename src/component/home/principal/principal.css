@@ -73,7 +73,7 @@
 .videomessages ul li h1 {
     text-align: left;
     font: 400 48px "Circular Std", sans-serif;
-    color: #E3010F;
+    color: #1f488d;
     text-transform: uppercase;
 }
 
@@ -130,7 +130,7 @@
     text-align: left;
     font: 400 13px "Circular Std", sans-serif;
     text-transform: uppercase;
-    color: #E3010F;
+    color: #1f488d;
     letter-spacing: 2px;
     margin: 32px 0 0 0;
     display: inline-block;
@@ -194,7 +194,7 @@
     width: 100%;
     text-align: right;
     font: 400 16px "Circular Std medium", sans-serif;
-    color: #E3010F;
+    color: #1f488d;
 }
 
 .videomessages ul li .btns .name span {
@@ -240,7 +240,7 @@
 .videomessages dl dt h1 {
     text-align: left;
     font: 400 48px "Circular Std", sans-serif;
-    color: #E3010F;
+    color: #1f488d;
     text-transform: uppercase;
 }
 
@@ -297,7 +297,7 @@
     text-align: left;
     font: 400 13px "Circular Std", sans-serif;
     text-transform: uppercase;
-    color: #E3010F;
+    color: #1f488d;
     letter-spacing: 2px;
     margin: 32px 0 0 0;
     display: inline-block;
@@ -361,7 +361,7 @@
     width: 100%;
     text-align: right;
     font: 400 16px "Circular Std medium", sans-serif;
-    color: #E3010F;
+    color: #1f488d;
 }
 
 .videomessages dl dt .btns .name span {

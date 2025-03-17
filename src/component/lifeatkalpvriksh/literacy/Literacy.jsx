@@ -10,19 +10,12 @@ const Literacy = () => {
         </div>
     </li>
     <li>
-        <h2>Literary &amp; quizzing</h2>
-        <p><span>The Literary society nurtures public speaking, debating, elocution, 
-            creative writing and all other literary pursuits in Hindi and English.</span> 
-            The culmination of the year-long work by the Language Department is 
-            showcased through two events – the interschool Wordsmiths and the 
-            inter-house Shiladhaar. New genres of speech, writing and oratory are 
-            explored and celebrated.</p>
-
-        <p><span>Additionally there is regular Quizzing</span> that caters to the diverse 
-            interests of the students and includes Spell Bees, Just A Minute, Trivia 
-            and other formats designed to build interest in the finer details and to 
-            sharpen skills of collation and recall of information that defines the 
-            calibre of every quiz master in the making.</p>
+        <h2>Literary & Quizzing Galaxy </h2>
+        <p><b>Vāgarth (Wordsmith Wars):</b> Multilingual debates blending Shakespearean sonnets with Rajasthani lok geet (folk songs).  </p>
+        <p>
+<b>QuizQuest:</b> AI-generated trivia on topics from Indus Valley cryptography to Mars colonization. Winners intern with Kota’s Space Innovation Lab.  </p>
+<p><b>Digital Vedas:</b> Students archive vanishing dialects via podcasts, collaborating with Adivasi communities. 
+</p>
     </li>
 </ul>
   )

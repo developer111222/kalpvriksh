@@ -9,11 +9,12 @@ const ExploreCampus = () => {
                 <i>Our Campus</i>
             </span>
         </h2>
-        <p>At Kalpvriksh Public School, we strive to create a dynamic learning environment where students can grow academically while also developing essential life skills. Our campus is designed to provide a balance between education and recreation, ensuring that students have access to a wide range of activities that contribute to their overall development.
-
-We offer excellent sports and recreational facilities, including a swimming pool, basketball and volleyball courts, and a skating rink, allowing students to stay active and engaged.</p>
+        <p>At Kalpvriksh School, we ensure that learning is an engaging and enjoyable experience. Our vibrant campus features: </p>
+        <p><b>State-of-the-art sports facilities</b> – including a swimming pool, basketball and volleyball courts, a skating rink, and indoor games like chess and table tennis.</p>
+        <p><b>Specialized training programs</b> – such as martial arts, boxing, yoga, and horse riding under expert guidance.  </p>
+        <p><b>A hands-on learning approach</b> – designed to develop confidence, critical thinking, and problem-solving skills.  </p>
         <div class="readmore">
-            <a href="our-campus.html">Learn More</a>
+            <a href="/our-campus">Learn More</a>
         </div>
         <ul>
             <li>

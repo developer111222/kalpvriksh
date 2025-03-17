@@ -1,0 +1,78 @@
+.ourcampusWrapper .difference {
+    width: 100%;
+    margin: 72px 0 0 0;
+}
+
+@media (max-width: 560px) {
+    .ourcampusWrapper .difference {
+        margin: 172px 0 0 0;
+    }
+}
+
+.ourcampusWrapper .difference h1 {
+    text-align: center;
+    font: 400 28px/56px "Circular Std", sans-serif;
+    color: #202020;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.ourcampusWrapper .difference h1 span {
+    /* font: 400 56px/56px "just_lovelyslanted", serif; */
+    color: #1f488d;
+    text-transform: none;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+.ourcampusWrapper .difference ul {
+    width: 100%;
+    display: grid;
+    grid-gap: 96px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 36px 0 0 0;
+}
+
+@media (max-width: 768px) {
+    .ourcampusWrapper .difference ul {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 48px;
+    }
+}
+
+.ourcampusWrapper .difference ul li {
+    width: 100%;
+}
+
+.ourcampusWrapper .difference ul li dl {
+    width: 100%;
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.ourcampusWrapper .difference ul li dl dt {
+    width: 100%;
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: 8px auto;
+    align-items: flex-start;
+}
+
+.ourcampusWrapper .difference ul li dl dt span {
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #1f488d;
+    margin: 4px 0 0 0;
+}
+
+.ourcampusWrapper .difference ul li dl dt b {
+    width: 100%;
+    display: block;
+    text-align: left;
+    font: 400 16px "Circular Std Book", sans-serif;
+    color: #505050;
+}

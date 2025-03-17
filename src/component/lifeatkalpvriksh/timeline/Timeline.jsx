@@ -10,19 +10,14 @@ const Timeline = () => {
 
 <ul class="per_arts">            
 <li>
-    <h2>Performing Arts</h2>
-    <p><span>Dramatics From the smallest of role-plays to larger theatrical 
-        productions, the school’s celebration of dramatics begins from 
-        Junior School.</span> The club encapsulates different forms of drama like 
-        musicals, street plays, short skits, pantomimes, which are performed 
-        the larger school community to enjoy.</p>
-    <p><span>Dance</span> This club, true to its spirit of nurturing talents in all its forms, 
-        teaches contemporary, classical Indian and fusion dance.</p>
-    <p><span>Music</span> is an important influencer to mark milestones during the day, 
-        as well as in children’s lives at Montfort World School. This club trains students and 
-        provides them opportunities to learn vocal, instrumental, classical 
-        Hindustani, and English contemporary music.</p>
-</li>
+                <h2>Performing Arts Realm</h2>
+                <p><b>Dramatics:</b> From Kathputli puppet theater to holographic storytelling, students script and stage productions in our 360° Rangmanch Dome. Annual collaborations with Jaipur’s Jawahar Kala Kendra blend folk narratives with digital art.  </p>
+                <p>
+<b>Dance:</b> Masterclasses in Ghoomar, Kalbeliya, and Afro-contemporary. The Rhythm Forest – an outdoor studio with pressure-sensitive floors – turns movement into light art.  </p>
+<p>
+<b>Music:</b> Learn the sarangi or sound design! Our *Swaralaya* studios offer Carnatic ragas, EDM mixing, and AI-composed symphonies performed at the Amber Fort Youth Festival.  
+</p>
+            </li>
 <li>
     <div class="photo">
         <div class="video">

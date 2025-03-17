@@ -149,7 +149,7 @@ const Header = () => {
             <div className="linksright">
               <dl>
                 <dt>
-                  <NavLink to="life-at-montfort">
+                  <NavLink to="life-at-kalpvriksh">
                     <small>Life at Montfort</small>
                     <span className="topshape"></span>
                     <span className="rightshape"></span>
@@ -225,7 +225,7 @@ const Header = () => {
                         </NavLink>
                       </dt>
                       <dt>
-                        <NavLink to="/life-at-montfort">
+                        <NavLink to="/life-at-kalpvriksh">
                           <small>Life at Montfort</small>
                           <span className="topshape"></span>
                           <span className="rightshape"></span>

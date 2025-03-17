@@ -10,7 +10,8 @@ const WhyKalpvriksh = () => {
                 <h2>Why Kalpvriksh</h2>
             </li>
             <li>
-                <p>Choose Kalpvriksh Public School for its commitment to holistic development, a progressive curriculum, dedicated faculty, cutting-edge facilities, and innovative programs, providing students with a well-rounded education and preparing them for future success.</p>
+                <p>With decades of experience in education, *Kalpvriksh School* is known for academic excellence, outstanding sports achievements, and a strong focus on character development. Our students excel not just in studies but also in extracurricular activities, leadership, and social responsibility.
+                </p>
                 {/* <p>April 2015 marked the beginning of a new chapter of excellence in education with a flagship school in Karnal.</p> */}
             </li>
         </ul>

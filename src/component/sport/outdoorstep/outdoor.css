@@ -38,6 +38,7 @@
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-style: normal;
+    margin-bottom: 85px;
 }
 
 @media (max-width: 1024px) {
@@ -49,12 +50,14 @@
 @media (max-width: 768px) {
     .sportsWrapper .outdoorWrapper h1 {
         font-size: 48px;
+        margin: 10px 0;
     }
 }
 
 @media (max-width: 420px) {
     .sportsWrapper .outdoorWrapper h1 {
         font-size: 40px;
+        margin: 10px 0;
     }
 }
 
@@ -221,7 +224,7 @@
     width: 100%;
     max-width: 380px;
     background-color: #1f488d;
-    padding: 62px 40px 62px 56px;
+    padding: 32px 40px 62px 56px;
     box-sizing: border-box;
     position: absolute;
     right: 24px;
@@ -301,7 +304,7 @@
     right: -24px;
     border-color: transparent transparent transparent #1f488d;
     border-style: solid;
-    border-width: 3px 0px 387px 24px;
+    border-width: 3px 0px 256px 24px;
     border-image: none 100% / 1 / 0 stretch;
     bottom: 0;
 }
@@ -636,7 +639,7 @@
 
 .sportsWrapper .outdoorWrapper .archeryShooting {
     width: 100%;
-    margin: 72px 0 0 0;
+    margin: 150px 0 0 0;
     position: relative;
 }
 
@@ -644,6 +647,7 @@
     .sportsWrapper .outdoorWrapper .archeryShooting {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        margin: 20px 0 0 0;
     }
 }
 
@@ -1276,6 +1280,7 @@
     .sportsWrapper .outdoorWrapper .tennis {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        margin: 20px  0 0 0;
     }
 }
 

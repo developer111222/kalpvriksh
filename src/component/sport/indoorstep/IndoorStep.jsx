@@ -4,15 +4,19 @@ import './indoorstep.css'
 const IndoorStep = () => {
   return (
     <div class="indoorWrapper">
-    <h1>Indoor Sports Complex</h1>
+    <h1>Indoor Combat Colosseum  </h1>
 
    
 
     <div class="taekwondo">
         <ul>
             <li>
-                <h2>Taekwondo </h2>
-                <p><span>Taekwondo is not completely a cardiovascular training art but it involves certain aspects that trained cardio also. </span> All over it contributes a healthy body, healthy mind, and outstanding performance. A good state of mind always brings out the best results either in games or in studies both.</p>
+                <h2>Taekwondo Temple </h2>
+                <p>Augmented reality doboks (uniforms) displaying real-time strike accuracy.  </p>
+                <p>
+The black belt syllabus includes cyberbullying defense strategies.  
+
+</p>
             </li>
             <li>
                 <div class="photo">
@@ -75,15 +79,11 @@ const IndoorStep = () => {
             <span class="leftshape"></span>
             <span class="bottomshape"></span>
             <div class="inText">
-                <h2>Boxing</h2>
-                <p>Boxing is a combat sport in which two people, usually
-                    wearing protective gloves, throw punches at each 
-                    other for a predetermined amount of time in a boxing 
-                    ring. Montfort provides the opportunity for kids in 
-                    the observation of expertise coach. We offer boxing 
-                    classes for beginner sand train our more committed 
-                    boxers to compete in various state and national
-                    competitions</p>
+                <h2>Boxing Brain Lab </h2>
+                <p>Punching bags with cortisol sensors that deflate stress hormones.  </p>
+                <p>
+Partnership with Jaipur Fight Club for MMA fusion workshops.  
+</p>
             </div>
         </div>
     </div>    
@@ -91,21 +91,11 @@ const IndoorStep = () => {
     <div class="chess">
         <ul>
             <li>
-                <h2>Yoga</h2>
-                <p><span> MWS offers special classes, meditation sessions, 
-                    advanced classes, workshops and seminars, and 
-                    yoga classes for children and teenagers. Students 
-                    learn to have sensitivity, respect and a deep 
-                    understanding of the human condition.</span> The main 
-                    purpose is to spread the practice of an authentic 
-                    and ancient system of yoga, thereby promoting 
-                    health, well-being, a stress-free lifestyle and a 
-                    more balanced and visionary individual. All the 
-                    classrooms are equipped with audio visual digital 
-                    facilities. The classrooms of the school are smart 
-                    in the true sense of the word. The classrooms are 
-                    equipped with interactive smart boards and 
-                    projectors.</p>
+                <h2>Yoga Cosmodrome </h2>
+                <p>Anti-gravity yoga silks suspended over medicinal herb gardens.  </p>
+                <p>
+AI guru apps merging Patanjali’s sutras with NASA astronaut training.  
+</p>
             </li>
             <li>
                 <div class="photo">

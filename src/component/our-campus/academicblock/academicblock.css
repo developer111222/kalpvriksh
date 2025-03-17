@@ -1,0 +1,287 @@
+.ourcampusWrapper .academicBlock {
+    width: 100%;
+    position: relative;
+    margin: 72px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+    .ourcampusWrapper .academicBlock {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.ourcampusWrapper .academicBlock .photo {
+    width: 728px;
+    overflow: hidden;
+    position: relative;
+}
+
+@media (max-width: 1280px) {
+    .ourcampusWrapper .academicBlock .photo {
+        width: 550px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .ourcampusWrapper .academicBlock .photo {
+        width: 100%;
+    }
+}
+
+.ourcampusWrapper .academicBlock .photo img {
+    display: block;
+    width: 100%;
+}
+
+.ourcampusWrapper .academicBlock .photo .rightshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    right: 0px;
+    border-color: transparent transparent transparent #1f488d;
+    border-style: solid;
+    border-width: 72px 0px 0px 25px;
+    border-image: none 100% / 1 / 0 stretch;
+}
+
+.ourcampusWrapper .academicBlock .photo .topshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 0 728px 12px 0px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0px;
+    left: 0;
+}
+
+.ourcampusWrapper .academicBlock .photo .bottomshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 0px 0px 24px 728px;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.ourcampusWrapper .academicBlock .photo .leftshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #fff transparent transparent;
+    border-style: solid;
+    border-width: 550px 0px 0px 16px;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 0;
+    right: 0;
+}
+
+.ourcampusWrapper .academicBlock .photo .leftshape1 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #1f488d transparent transparent;
+    border-style: solid;
+    border-width: 399.5px 0px 0px 25px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0px;
+    left: 1px;
+}
+
+.ourcampusWrapper .academicBlock .text {
+    width: 100%;
+    max-width: 460px;
+    background-color: #1f488d;
+    padding: 62px 40px 62px 56px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 132px;
+    bottom: 40px;
+}
+
+@media (max-width: 1280px) {
+    .ourcampusWrapper .academicBlock .text {
+        right: 24px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .ourcampusWrapper .academicBlock .text {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        max-width: calc(100% - 32px);
+        z-index: 10;
+    }
+}
+
+@media (max-width: 420px) {
+    .ourcampusWrapper .academicBlock .text {
+        padding: 24px;
+    }
+}
+
+.ourcampusWrapper .academicBlock .text h2 {
+    text-align: left;
+    /* font: 400 56px "just_lovelyslanted", serif; */
+    font-size: 50px;
+    color: #fff;
+}
+
+@media (max-width: 420px) {
+    .ourcampusWrapper .academicBlock .text h2 {
+        font-size: 40px;
+    }
+}
+
+.ourcampusWrapper .academicBlock .text p {
+    text-align: left;
+    font: 400 15px "Circular Std Book", sans-serif;
+    color: #fff;
+    margin: 24px 0 0 0;
+}
+
+@media (max-width: 420px) {
+    .ourcampusWrapper .academicBlock .text p {
+        font-size: 13px;
+    }
+}
+
+.ourcampusWrapper .academicBlock .text .rightshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    right: -24px;
+    border-color: transparent transparent transparent #1f488d;
+    border-style: solid;
+    border-width: 3px 0px 411px 24px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0;
+}
+
+@media (max-width: 1024px) {
+    .ourcampusWrapper .academicBlock .text .rightshape {
+        border-width: 3px 0px 356px 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ourcampusWrapper .academicBlock .text .rightshape {
+        border-width: 3px 0px 412px 24px;
+    }
+}
+
+@media (max-width: 560px) {
+    .ourcampusWrapper .academicBlock .text .rightshape {
+        border-width: 3px 0px 506px 24px;
+    }
+}
+
+@media (max-width: 420px) {
+    .ourcampusWrapper .academicBlock .text .rightshape {
+        border-width: 3px 0px 377px 24px;
+    }
+}
+
+.ourcampusWrapper .academicBlock .text .topshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #1f488d;
+    border-style: solid;
+    border-width: 0 460px 24px 0;
+    border-image: none 100% / 1 / 0 stretch;
+    top: -24px;
+    left: 0;
+}
+
+@media (max-width: 1024px) {
+    .ourcampusWrapper .academicBlock .text .topshape {
+        border-width: 0 693px 24px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .ourcampusWrapper .academicBlock .text .topshape {
+        border-width: 0 490px 24px 0;
+    }
+}
+
+@media (max-width: 560px) {
+    .ourcampusWrapper .academicBlock .text .topshape {
+        border-width: 0 367px 24px 0;
+    }
+}
+
+@media (max-width: 420px) {
+    .ourcampusWrapper .academicBlock .text .topshape {
+        border-width: 0 285px 24px 0;
+    }
+}
+
+.ourcampusWrapper .academicBlock .text .bottomshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: transparent transparent #1f488d;
+    border-style: solid;
+    border-width: 0px 0px 24px 728px;
+    border-image: none 100% / 1 / 0 stretch;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.ourcampusWrapper .academicBlock .text .leftshape {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #1f488d transparent transparent;
+    border-style: solid;
+    border-width: 16px 460px 0px 0px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: -16px;
+    right: 0;
+}
+
+@media (max-width: 1024px) {
+    .ourcampusWrapper .academicBlock .text .leftshape {
+        border-width: 16px 688px 0px 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ourcampusWrapper .academicBlock .text .leftshape {
+        border-width: 16px 480px 0px 0px;
+    }
+}
+
+@media (max-width: 560px) {
+    .ourcampusWrapper .academicBlock .text .leftshape {
+        border-width: 16px 340px 0px 0px;
+    }
+}
+
+@media (max-width: 420px) {
+    .ourcampusWrapper .academicBlock .text .leftshape {
+        border-width: 16px 260px 0px 0px;
+    }
+}
+
+.ourcampusWrapper .academicBlock .text .leftshape1 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: #1f488d transparent transparent;
+    border-style: solid;
+    border-width: 399.5px 0px 0px 25px;
+    border-image: none 100% / 1 / 0 stretch;
+    bottom: 0px;
+    left: 1px;
+}

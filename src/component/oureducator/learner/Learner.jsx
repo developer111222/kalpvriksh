@@ -6,18 +6,13 @@ const Learner = () => {
 <div class="learners">
             <ul>
                 <li>
-                    <h2>TEACHERS AS <span>Learners</span></h2>
-                    <p><span>Our teachers are aware of, and appreciate the individual 
-                        ability and appetite of every child.</span> Their endeavour is to 
-                        keep the learning process ongoing. While they impart 
-                        education and life skills to their students they also learn 
-                        from them at every step. Our teachers bring into play 
-                        tested innovative methods that have been proven globally
-                        to draw out each child’s hidden potential. They also are 
-                        strongly guided by the traditional Indian wisdom. Our 
-                        educators care deeply and are committed to combine 
-                        insights with imagination and compassion to connect 
-                        with every student.</p>
+                    <h2>Educators as  <span>Eternal Students  </span></h2>
+                    <p>Our teachers don’t just adapt—they `anticipate’. Through `Adhyapan 4.0’ residencies, they:  
+Co-author AI curricula with Bengaluru’s robotics labs.  
+Train in desert permaculture to integrate climate science into math problems.  
+Master `Naad Yoga’ (sound therapy) to enhance focus in digital-native learners.  
+Each educator maintains a <b>Karma Diary,</b> tracking how they’ve merged CBSE frameworks with Kalpvriksh’s <b>5 Pillars:</b> Heritage Stewardship, Digital Dharma, Green Citizenship, Emotional Agility, and Cosmic Curiosity.  
+</p>
                 </li>
                 <li>
                     <div class="photo">
