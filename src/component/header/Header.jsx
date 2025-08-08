@@ -156,7 +156,7 @@ const Header = () => {
                     <span className="bottomshape"></span>
                   </NavLink>
                 </dt>
-                <dt>
+                {/* <dt>
                   <NavLink to="montfort-app">
                     <small>Montfort School App</small>
                     <span className="topshape"></span>
@@ -171,7 +171,7 @@ const Header = () => {
                     <span className="rightshape"></span>
                     <span className="bottomshape"></span>
                   </NavLink>
-                </dt>
+                </dt> */}
               </dl>
             </div>
           </li>
@@ -232,22 +232,22 @@ const Header = () => {
                           <span className="bottomshape"></span>
                         </NavLink>
                       </dt>
-                      <dt>
+                      {/* <dt>
                         <NavLink to="montfort-app">
                           <small>Montfort School App</small>
                           <span className="topshape"></span>
                           <span className="rightshape"></span>
                           <span className="bottomshape"></span>
                         </NavLink>
-                      </dt>
-                      <dt>
+                      </dt> */}
+                      {/* <dt>
                         <NavLink to="CBSECorner">
                           <small>CBSE Corner</small>
                           <span className="topshape"></span>
                           <span className="rightshape"></span>
                           <span className="bottomshape"></span>
                         </NavLink>
-                      </dt>
+                      </dt> */}
                     </dl>
                   </li>
                 </ul>

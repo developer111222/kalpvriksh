@@ -9,7 +9,7 @@ const OutdoorStep = () => {
             <div class="swimingpool">
                 <div class="photo">
                     <div class="video">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/yb58wnaBazM?rel=0&amp;controls=0" frameborder="0" allow=""></iframe>
+                     <img src='/img/swimming.webp' width="100%" />
                        
                        
                     </div>
@@ -59,8 +59,7 @@ The curriculum blends roller derby physics with Thar desert navigation skills.
                     <li>
                         <div class="photo">
                             <div class="video">
-                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/M8srcXEkgG0?rel=0&amp;controls=0" frameborder="0" allow=""></iframe>
-                                
+                                <img src='/img/skating.webp' width='100%' />   
                                
                             </div>
                             <div class="photos">
@@ -90,7 +89,7 @@ The curriculum blends roller derby physics with Thar desert navigation skills.
             <div class="archeryShooting">
                 <div class="photo">
                     <div class="video">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/PFoshwpgZxU?rel=0&amp;controls=0" frameborder="0" allow=""></iframe>
+                   <img src='/img/basketball.webp' width="100%" />
                         
                       
                     </div>
@@ -132,15 +131,15 @@ Night matches under constellation-projecting LED canopy.
             <div class="basketball">
                 <ul>
                     <li>
-                        <h2>Racket Renaissance Tennis Hub</h2>
-                        <p>Hybrid surfaces (clay/grass/hard) adapting to international tournament standards.  </p>
-<p> AI ball machines that mimic Nadal’s topspin or Djokovic’s precision. 
-</p>
+                        <h2>SpikeSphere Volleyball Arena</h2>
+<p>Hybrid courts with customizable surfaces (indoor/hard/beach) aligned with international tournament standards.</p>
+<p>AI-powered serve and spike machines replicating the power of Gabi’s attacks or the precision of Karch Kiraly’s placements.</p>
+
                     </li>
                     <li>
                         <div class="photo">
                             <div class="video">
-                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/g3Z64wRrHzo?rel=0&amp;controls=0" frameborder="0"></iframe>
+                               <img src='/img/volleyball.webp' width="100%" />
                                 
                                
                             </div>
@@ -168,43 +167,7 @@ Night matches under constellation-projecting LED canopy.
                 </ul>                    
             </div>
 
-            <div class="tennis">
-                <div class="photo">
-                    <div class="video">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/w9A5YeVKXd8?rel=0&amp;controls=0" frameborder="0" allow=""></iframe>
-                       
-                       
-                    </div>
-                    
-                    <div class="photos">
-                        <ul>
-                            <li>
-                                <a href="images/photo-gallery/tennis-1.jpg" data-thumbnail="images/photo-gallery/tennis-1.jpg" data-fullscreenmode="true" data-transition="slide" class="html5lightbox" data-group="tennis" data-width="600" data-height="400" data-title="">
-                                    <img src="images/photo-gallery/tennis-1.jpg" alt="" />					
-                                </a>
-                            </li>
-                            <li>
-                                <a href="images/photo-gallery/tennis-2.jpg" data-thumbnail="images/photo-gallery/tennis-2.jpg" data-fullscreenmode="true" data-transition="slide" class="html5lightbox" data-group="tennis" data-width="600" data-height="400" data-title="">
-                                    <img src="images/photo-gallery/tennis-2.jpg" alt="" />					
-                                </a>
-                            </li>
-                            <li>
-                                <a href="images/photo-gallery/tennis-3.jpg" data-thumbnail="images/photo-gallery/tennis-3.jpg" data-fullscreenmode="true" data-transition="slide" class="html5lightbox" data-group="tennis" data-width="600" data-height="400" data-title="">
-                                    <img src="images/photo-gallery/tennis-3.jpg" alt="" />					
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="text">
-                    <span class="topshape"></span>
-                    <span class="leftshape"></span>
-                    <div class="inText">
-                        <h2>SpikeSphere Volleyball   </h2>
-                        <p>Sand courts with monsoon simulation modes; wearable tech measuring spike velocity.</p>
-                    </div>
-                </div>
-            </div>
+           
 
             {/* <div class="volleyball">
                 <ul>

@@ -11,16 +11,16 @@ const Footer = () => {
             <div class="footerlogo">
                 <img src="images/logo-footer.png" alt="" />
             </div>
-            <b class="location">Karnal (Haryana) Airport Road , Kunjpura</b>
-            <b class="email">Email Address :  info@montfortworld.com</b>
-            <p>For us equality matters. Each and every student is entitled to the attention which he individually requires and deserves. These specially trained faculty members equipped with the most technologically advanced classrooms and digital libraries have the caliber to cater to the needs of all the students jointly and severally.</p>
+            <b class="location">Sambhali Road, Nissing, Karnal, Haryana</b>
+            <b class="email">Email Address :  kalpvrikshschool4@gmail.com</b>
+            <p>We believe in true equality. Every student deserves personalized attention that meets their unique needs. Our highly trained faculty, supported by state-of-the-art classrooms and advanced digital libraries, are fully equipped to support all students—both individually and collectively.</p>
         </li>
         <li>
             <div class="socialLinks">
-                <a href="https://www.facebook.com/montfortworld" >
+                <a href="" >
                     <img src="img/facebook.webp" alt="" />
                 </a>
-                <a href="https://www.instagram.com/montfortworldschoolkarnal/">
+                <a href="">
                     <img src="img/instagram.webp" alt="" />
                 </a>
             </div>
@@ -30,15 +30,15 @@ const Footer = () => {
                 <NavLink to="our-educator">Our Educators</NavLink>
                 <NavLink to="/sport">Sports</NavLink>
                 <NavLink to="/life-at-kalpvriksh">Life at Kalpvriksh</NavLink>
-                <NavLink to="/">Montfort School App</NavLink>
-                <NavLink to="">CBSE Corner</NavLink>
+                {/* <NavLink to="/">Montfort School App</NavLink> */}
+                {/* <NavLink to="">CBSE Corner</NavLink> */}
             </div>
         </li>
     </ul>
 </footer>
 <div class="copyright">
         <ul>
-            <li>© Copyright 2021 Kalpvriksh Public School</li>
+            <li>© Copyright 2025 Kalpvriksh Public School</li>
             <li>
                 Designed &amp; Developed by
                 <a href="/" target="_blank">All in Digi</a>

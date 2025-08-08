@@ -15,10 +15,10 @@ const LifeAtKalpvriksh = () => {
 <PhotoLife/>
 <AboutLife/>
 <Sport/>
-<Timeline/>
+{/* <Timeline/> */}
 <ArtCraft/>
-<Clubs/>
-<Literacy/>
+{/* <Clubs/> */}
+{/* <Literacy/> */}
 <Photography/>
     </div>
   )

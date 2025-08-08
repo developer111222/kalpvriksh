@@ -2,7 +2,7 @@ import React from 'react'
 const StaffImg = () => {
   return (
     <div class="photo">
-    <img src="img/campus.jpg" alt="" />
+    <img src="img/campus.webp" alt="" />
     <div class="heading">
         <span class="topshape"></span>
         <span class="rightshape"></span>

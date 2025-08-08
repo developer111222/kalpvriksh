@@ -16,7 +16,7 @@ Each educator maintains a <b>Karma Diary,</b> tracking how they’ve merged CBSE
                 </li>
                 <li>
                     <div class="photo">
-                        <img src="img/" alt="" />
+                        <img src="img/external-teacher.webp" alt="" />
                         <span class="bottomshape"></span>
                     </div>
                 </li>

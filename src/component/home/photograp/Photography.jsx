@@ -6,35 +6,35 @@ const Photography = () => {
         <h2>Taking Care of<br/>overall development of <span>your child</span></h2>
         <ul>
             <li>
-                <img src="images/photo-gallery/photoGal-1.png" alt="" />	
+                <img src="img/open-minded.webp" alt="" />	
                     <div class="text">
                         <b>Open - Minded</b>
                         <p>Appreciating diverse perspectives and cultures.</p>
                     </div>
             </li>
             <li>
-                <img src="images/photo-gallery/photoGal-2.png" alt="" />	
+                <img src="img/caring.webp" alt="" />	
                     <div class="text">
                         <b>Caring</b>
                         <p>Showing empathy and respect for others.</p>
                     </div>
             </li>
             <li>
-                <img src="images/photo-gallery/photoGal-3.png" alt="" />			
+                <img src="img/risk-taker.webp" alt="" />			
                     <div class="text">
                         <b>Risk - Takers</b>
                         <p>Facing challenges with confidence.</p>
                     </div>
             </li>
             <li>
-                <img src="images/photo-gallery/photoGal-4.png" alt="" />		
+                <img src="img/balanced.webp" alt="" />		
                     <div class="text">
                         <b>Balanced</b>
                         <p>Maintaining intellectual, physical, and emotional well-being.</p>
                     </div>
             </li>
             <li>
-                <img src="images/photo-gallery/photoGal-5.png" alt="" />		
+                <img src="img/reflective.webp" alt="" />		
                     <div class="text">
                         <b>Reflective</b>
                         <p>Continuously learning and growing.
@@ -43,28 +43,28 @@ const Photography = () => {
                     </div>
             </li>
             <li>
-                <img src="images/photo-gallery/photoGal-6.png" alt="" />	
+                <img src="img/principal.webp" alt="" />	
                     <div class="text">
                         <b>Principled</b>
                         <p>Acting with integrity, fairness, and responsibility.  </p>
                     </div>	
             </li>
             <li>
-                <img src="images/photo-gallery/photoGal-7.png" alt="" />		
+                <img src="img/communicator.webp" alt="" />		
                     <div class="text">
                         <b>Communicators</b>
                         <p>Expressing ideas effectively in various forms. </p>
                     </div>
             </li>
             <li>
-                <img src="images/photo-gallery/photoGal-8.png" alt="" />
+                <img src="img/thinker.webp" alt="" />
                     <div class="text">
                         <b>Thinkers</b>
                         <p>Applying critical and creative thinking to problem-solving. </p>
                     </div>	
             </li>
             <li>
-                <img src="images/photo-gallery/photoGal-9.jpg" alt="" />	
+                <img src="img/knowledgeable.webp" alt="" />	
                     <div class="text">
                         <b>Knowledgeable</b>
                         <p>Exploring global and local issues with curiosity and depth.  </p>

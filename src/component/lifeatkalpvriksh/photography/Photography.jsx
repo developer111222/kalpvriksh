@@ -14,7 +14,7 @@ const Photography = () => {
     <li>
         <div class="photo">
             <div class="video">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/yg2CeLennyo?rel=0&amp;controls=0" frameborder="0" allow=""></iframe>
+                <img src='/img/principal.webp' width="100%" />
                
             </div>
         </div>

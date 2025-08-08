@@ -5,7 +5,7 @@ const SportVideo = () => {
   return (
 <div class="sphoto">
             <div class="video">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/nZw_-Po-QLw?rel=0&amp;controls=0" frameborder="0" allow=""></iframe>
+                <img src='/img/skating.webp' width="100%"  />
             
              
             </div>

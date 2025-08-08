@@ -11,17 +11,17 @@ const IndoorStep = () => {
     <div class="taekwondo">
         <ul>
             <li>
-                <h2>Taekwondo Temple </h2>
-                <p>Augmented reality doboks (uniforms) displaying real-time strike accuracy.  </p>
-                <p>
-The black belt syllabus includes cyberbullying defense strategies.  
-
+                <h2>Carrom Command Center</h2>
+<p>Smart carrom boards with sensor-embedded surfaces tracking flick precision and rebound angles in real-time.</p>
+<p>
+The champion's curriculum includes strategy modules on digital concentration, fair play, and online gaming etiquette.
 </p>
+
             </li>
             <li>
                 <div class="photo">
                     <div class="video">                                                                
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1CL4JGHsbkg?rel=0&amp;controls=0" frameborder="0" allow=""></iframe>
+                      <img src='/img/carromboard.webp' width="100%" />
                     </div>
                     <div class="photos">
                         <ul>
@@ -50,7 +50,7 @@ The black belt syllabus includes cyberbullying defense strategies.
     <div class="boxing">
         <div class="photo">
             <div class="video">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/nZw_-Po-QLw?rel=0&amp;controls=0" frameborder="0" allow="" />
+              <img src='/img/ludo.webp' width="100%" />
                 
             </div>
             <div class="photos">
@@ -79,11 +79,12 @@ The black belt syllabus includes cyberbullying defense strategies.
             <span class="leftshape"></span>
             <span class="bottomshape"></span>
             <div class="inText">
-                <h2>Boxing Brain Lab </h2>
-                <p>Punching bags with cortisol sensors that deflate stress hormones.  </p>
-                <p>
-Partnership with Jaipur Fight Club for MMA fusion workshops.  
+                <h2>Ludo Legends Lounge</h2>
+<p>Interactive Ludo boards with LED paths and motion sensors tracking dice rolls and player moves in real-time.</p>
+<p>
+The grandmaster training includes modules on probability tactics, digital sportsmanship, and handling online rivalry.
 </p>
+
             </div>
         </div>
     </div>    
@@ -91,17 +92,18 @@ Partnership with Jaipur Fight Club for MMA fusion workshops.
     <div class="chess">
         <ul>
             <li>
-                <h2>Yoga Cosmodrome </h2>
-                <p>Anti-gravity yoga silks suspended over medicinal herb gardens.  </p>
-                <p>
-AI guru apps merging Patanjali’s sutras with NASA astronaut training.  
+                <h2>Checkmate Chamber</h2>
+<p>AI-integrated smart boards with heat maps and real-time move analysis inspired by grandmasters.</p>
+<p>
+The elite curriculum features cognitive endurance training, anti-cheat ethics, and strategies to counter digital distractions.
 </p>
+
             </li>
             <li>
                 <div class="photo">
                     <span>
                         <div class="video">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/i0lJanCaDig?rel=0&amp;controls=0" frameborder="0" allow=""></iframe>
+                        <img src='/img/chess.webp' width="100%" />
                             
                         </div>
                         <div class="photos">

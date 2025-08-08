@@ -6,7 +6,7 @@ const MontfortExperience = () => {
     <div class="ourways">
     <h2>The Montfort World <span>Experience</span></h2>
     <ul>
-        <li>
+        {/* <li>
                 <div class="photo">
                     <img src="images/academics.png" alt="" />
                 </div>
@@ -35,12 +35,12 @@ const MontfortExperience = () => {
                     <span class="rightshape"></span>
                     <span class="bottomshape">
                 </span></b>
-        </li>
+        </li> */}
         <li>
                 <div class="photo">
-                    <img src="images/lab.png" alt="" />
+                    <img src="img/computer-lab.jpg" alt="" />
                 </div>
-                <b><small>Science Lab</small>
+                <b><small>Computer Lab</small>
                     <span class="topshape"></span>
                     <span class="rightshape"></span>
                     <span class="bottomshape">
@@ -48,9 +48,9 @@ const MontfortExperience = () => {
         </li>
         <li>
                 <div class="photo">
-                    <img src="images/library.png" alt="" />
+                    <img src="img/sport.jpg" alt="" />
                 </div>
-                <b><small>Library</small>
+                <b><small>Sport</small>
                     <span class="topshape"></span>
                     <span class="rightshape"></span>
                     <span class="bottomshape">
@@ -58,7 +58,7 @@ const MontfortExperience = () => {
         </li>
         <li>
                 <div class="photo">
-                    <img src="images/transport.png" alt="" />
+                    <img src="/img/transport.jpg" alt="" />
                 </div>
                 <b><small>Transport</small>
                     <span class="topshape"></span>

@@ -8,7 +8,7 @@ const Support = () => {
         <li>
             <div class="photo">
                 <div class="video">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/wlZubjaVIvE?rel=0&amp;controls=0" frameborder="0" allow=""></iframe>
+                    <img  src="/img/open-minded.webp" frameborder="0" allow="" />
                 </div>
             </div>
         </li>
